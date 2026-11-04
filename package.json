@@ -1,0 +1,1 @@
+{"name":"yajing-portfolio","private":true,"scripts":{"start":"node server.cjs","test":"node check.cjs && node check-pages.cjs","build":"node check.cjs && node check-pages.cjs"}}

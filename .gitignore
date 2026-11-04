@@ -1,0 +1,25 @@
+# Track the website and its deployment tooling, not local research or exports.
+/*
+!/.gitignore
+!/.gitattributes
+!/.github/
+!/dist/
+!/package.json
+!/check.cjs
+!/check-pages.cjs
+!/server.cjs
+!/README.md
+!/DEPLOYMENT.md
+
+# Never commit credentials, dependencies, or source documents.
+**/node_modules/
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.pdf
+**/*.docx
+**/*.pptx
+**/*.xlsx
+**/Thumbs.db
+**/.DS_Store
