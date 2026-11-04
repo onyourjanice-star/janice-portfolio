@@ -9,8 +9,8 @@ window.PORTFOLIO = {
       "category": "AI PRODUCT OPERATIONS",
       "icon": "✳",
       "tone": "sage",
-      "title": "小米小爱 AI：从用户需求到产品体验",
-      "titleEn": "Xiaomi AI: from user needs to product experience",
+      "title": "小米｜AI 产品玩法策划与上线运营",
+      "titleEn": "Xiaomi | AI scenario planning & launch",
       "summary": "把AI技术能力转化为用户愿意尝试的产品玩法。参与场景策划、模型效果评估、上线传播与复盘。",
       "summaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
       "tags": [
@@ -121,7 +121,57 @@ window.PORTFOLIO = {
           "heading": "CASE 02 / 六一童年手办",
           "body": "#### 07 / PRODUCT EXPERIENCE：如何让生成结果更加稳定？\r\n\r\n六一童年手办玩法围绕儿童节与童年回忆，通过AI将用户上传的人物照片转化为3D摆件图片。\r\n\r\n相较于五一旅行拍立得，六一玩法在视觉风格、人物比例、多人完整度等方面提出了更多生成质量要求。\r\n\r\n项目围绕盲盒、旋转木马、水晶球等视觉方向开展方案探索和效果评估。\r\n\r\n#### 08 / MODEL EVALUATION：建立结构化的效果评估方式\r\n\r\n我参与AI生成测试集建设及结果评估。\r\n\r\n测试场景覆盖单人、双人、多人和宠物等输入类型，主要从以下维度判断生成结果：\r\n\r\n**成图率**\r\n\r\n是否能够成功生成目标图片。\r\n\r\n**主体识别**\r\n\r\n是否准确保留输入照片中的人物及其他主体。\r\n\r\n**人物比例**\r\n\r\n头身比例、构图与视觉效果是否符合预期。\r\n\r\n**风格一致性**\r\n\r\n不同输入素材能否保持目标视觉风格。\r\n\r\n**画面畸变**\r\n\r\n是否出现人物结构异常、肢体畸变等情况。\r\n\r\n**多人完整性**\r\n\r\n是否出现漏人或人物信息丢失。\r\n\r\n#### 09 / KEY FINDINGS：从测试结果识别体验问题\r\n\r\n在实际评估中，发现不同风格存在头部比例偏大、多人生成稳定性不足及宠物结构异常等问题。\r\n\r\n例如，盲盒风格单人场景的比例合适率，小爱测试结果为50%，同期GPT对照结果为57.5%。\r\n\r\n通过将生成结果按风格、人物数量和问题类型拆分，能够更具体地描述模型表现，而不是仅根据少量优秀样张进行评价。\r\n\r\n#### 10 / PROJECT RESULTS\r\n\r\n**55.2万** 活动页面UV\r\n\r\n**12.6万** 图片生成量\r\n\r\n**4.1万** 品牌转化UV\r\n\r\n**29%** 小米用户中拉新及召回占比\r\n\r\n#### 11 / MY CONTRIBUTION\r\n\r\n**产品场景策划**\r\n\r\n参与用户场景洞察、玩法创意和方案评审。\r\n\r\n**模型效果评估**\r\n\r\n参与测试集构建、Good/Bad案例整理及生成问题反馈。\r\n\r\n**上线与传播协同**\r\n\r\n协助官方内容、KOC Brief、内容审核与社媒传播。\r\n\r\n**数据复盘**\r\n\r\n参与整理用户参与及项目表现，观察不同玩法的效果。"
         }
-      ]
+      ],
+      "cardFocus": "用户场景 → 玩法策划 → 评测反馈 → 上线运营",
+      "cardSummary": "参与旅行拍立得、童年手办玩法策划，整理生成问题并协同上线传播。",
+      "cardSummaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
+      "responsibilities": [
+        "AI内容场景及玩法策划",
+        "模型效果评测与问题反馈",
+        "新功能上线传播协同",
+        "项目数据回收与复盘"
+      ],
+      "judgment": "五一旅行照与晒图需求集中出现。方案调研中的“求图、求教程”评论说明用户已对3D拍立得感兴趣，但工具、账号和操作方式仍是门槛。机会是把复杂生成过程收敛为一条熟悉的体验路径。",
+      "goal": "围绕节日照片创作需求，把小爱生图能力转化为用户可理解、易尝试的轻量玩法。",
+      "cardMetrics": [
+        [
+          "59.7万",
+          "五一活动UV",
+          "597K",
+          "May Day visitors"
+        ],
+        [
+          "43.9万",
+          "五一生成图片",
+          "439K",
+          "Images generated"
+        ]
+      ],
+      "chain": [
+        "用户场景识别",
+        "AI玩法策划",
+        "模型测试",
+        "上线推广",
+        "数据复盘"
+      ],
+      "modelFeedback": [
+        [
+          "多人生成存在漏人",
+          "按人数及场景整理异常案例，检查主体完整性。",
+          "已整理并反馈；不推断最终修复率。"
+        ],
+        [
+          "头身比例不稳定",
+          "按风格对比人物比例；保留小爱50%、同期GPT57.5%的同口径记录。",
+          "已记录对照结果并反馈优化需求。"
+        ],
+        [
+          "宠物主体畸变",
+          "按主体与问题类型补充异常记录，整理Good/Bad Case。",
+          "已整理并反馈；未取得最终改善幅度。"
+        ]
+      ],
+      "modelNote": "模型反馈与上线验收为本人参与工作；现有材料未提供逐项修复结果或统一提升率，不新增优化成效。原始Good/Bad对照图片待补充。"
     },
     {
       "id": "futu",
@@ -129,8 +179,8 @@ window.PORTFOLIO = {
       "category": "CONTENT GROWTH",
       "icon": "↗",
       "tone": "orange",
-      "title": "富途 moomoo：从金融内容到产品增长",
-      "titleEn": "Futu moomoo: from financial content to product growth",
+      "title": "富途 moomoo｜产品内容增长与用户转化",
+      "titleEn": "moomoo | Product content & growth",
       "summary": "以用户关心的财经内容为入口，将产品功能融入个股、IPO与投资场景，支持产品认知与业务增长。",
       "summaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
       "tags": [
@@ -326,7 +376,34 @@ window.PORTFOLIO = {
             "资讯、倒计时与开通指南 · 历史项目复盘截图"
           ]
         ]
-      }
+      },
+      "cardFocus": "产品内容策略 / KOC矩阵 / 搜索增长",
+      "cardSummary": "围绕IPO节点组织内容与KOC分发，根据需求和反馈调整传播节奏。",
+      "cardSummaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
+      "responsibilities": [
+        "内容选题与产品信息植入",
+        "KOC筛选、Brief下发与内容审核",
+        "IPO专题节奏调整与数据复盘",
+        "AI财经账号孵化与品牌反馈"
+      ],
+      "judgment": "从个股热点、IPO节点和金融知识切入，以用户信息需求为起点解释产品价值。曝光、搜索、开户和活跃分别代表不同阶段的用户行为，需要结合产品行为理解增长。",
+      "goal": "围绕IPO资讯、申购与交易节点，支持moomoo产品认知、搜索关注及使用意向。",
+      "cardMetrics": [
+        [
+          "约54万",
+          "专项KOC内容曝光",
+          "~540K",
+          "KOC impressions"
+        ],
+        [
+          "+107%",
+          "“moomoo打新”搜索指数",
+          "+107%",
+          "IPO search index"
+        ]
+      ],
+      "phaseNote": "两轮复盘将上市前内容占比从约15%调整至约40%，提前覆盖新股资讯和申购需求；这属于内容节奏迭代，不是A/B实验，也不能单独解释全部曝光、搜索或开户增长。",
+      "conversionNote": "简历另记录项目引导开户80+；原始归因规则、去重方式与统计区间待核实，暂不并入首页核心成果。"
     },
     {
       "id": "nova",
@@ -334,8 +411,8 @@ window.PORTFOLIO = {
       "category": "PRODUCT GTM PREPARATION",
       "icon": "◒",
       "tone": "brown",
-      "title": "Nova AI：从AI视频创作到产品GTM",
-      "titleEn": "Nova AI: from creative workflows to product GTM",
+      "title": "Nova AI｜AI 创作场景验证与 GTM 传播",
+      "titleEn": "Nova AI | Creative workflows & GTM",
       "summary": "用真实创作案例探索AI视频工具的市场价值，参与创作场景、商业内容与创作者合作，为市场启动准备素材。",
       "summaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
       "tags": [
@@ -393,23 +470,33 @@ window.PORTFOLIO = {
       "sop": [
         [
           "需求与场景",
-          "明确活动目标、创作者任务与内容形式。",
+          "明确活动目标、创作者任务、内容形式和交付要求。",
           "创作需求"
         ],
         [
-          "创意与脚本",
-          "策划故事、人物、情节与视觉风格。",
+          "脚本与分镜",
+          "参与故事、人物、情节与视觉风格策划。",
           "脚本与分镜"
         ],
         [
-          "AI制作",
-          "生成、筛选、调整素材并完成剪辑。",
-          "创作案例"
+          "AI素材生成",
+          "围绕角色、店铺与场景生成视频所需素材。",
+          "角色与场景资产"
         ],
         [
-          "创作者协同",
-          "对接达人与MCN，准备可复用提示词和模板。",
-          "创作支持与交付"
+          "筛选与调整",
+          "根据脚本需要筛选、调整生成素材。",
+          "可用镜头素材"
+        ],
+        [
+          "剪辑与交付",
+          "组织镜头与节奏，完成视频制作剪辑及协同交付。",
+          "达人视频与官方宣传片"
+        ],
+        [
+          "模板与创作者共创",
+          "下发AI小人国提示词模板，支持达人、MCN及UGC创作。",
+          "提示词模板与共创案例"
         ]
       ],
       "resultNote": "3支达人视频、1支官方宣传片及445篇UGC均为代表Campaign的项目口径，不等同于Nova AI产品上线后的增长结果。下方话题累计播放为用户补充截图的独立口径。",
@@ -436,7 +523,7 @@ window.PORTFOLIO = {
         },
         {
           "heading": "04 / REPRESENTATIVE CASE",
-          "body": "#### 抖音电商夏季美食热点项目\r\n\r\n围绕早餐话题，结合短剧化表达与AI视频创意，参与商业内容生产。\r\n\r\n交付内容包括：\r\n\r\n- 3支合作达人视频。\r\n- 1支官方宣传片。\r\n- AI视频脚本、生成素材及最终剪辑内容。\r\n\r\n相关Campaign还通过创作者协作和UGC投稿扩大内容传播。\r\n\r\n项目累计445篇UGC投稿，话题曝光数据待原始战报核对后展示。"
+          "body": "#### 抖音电商夏季美食热点项目\r\n\r\n围绕早餐话题，结合短剧化表达与AI视频创意，参与商业内容生产。\r\n\r\n交付内容包括：\r\n\r\n- 3支合作达人视频。\r\n- 1支官方宣传片。\r\n- AI视频脚本、生成素材及最终剪辑内容。\r\n\r\n相关Campaign还通过创作者协作和UGC投稿扩大内容传播。\r\n\r\n项目累计445篇UGC投稿，话题累计播放截图以独立口径保留，不作为个人制作成效。"
         }
       ],
       "video": {
@@ -508,7 +595,175 @@ window.PORTFOLIO = {
         "label": "话题页累计播放 · 截图口径",
         "image": "assets/breakfast-topic-results.jpg",
         "note": "用户提供的话题页截图显示7005.3万次播放，截图时间未提供。该数值为整个话题的累计播放，包含官方、达人、商家及UGC内容，不等同于本人作品播放量、个人贡献增量或Nova AI产品增长；与项目复盘的统计周期不同，分开展示。"
-      }
+      },
+      "cardFocus": "脚本策划 / AI生成剪辑 / 创作者协作",
+      "cardSummary": "参与早餐短剧脚本、AI素材生成剪辑及提示词模板，完成真实内容交付。",
+      "cardSummaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
+      "responsibilities": [
+        "创意与脚本：理解活动目标，参与主题、情节与视觉表达策划。",
+        "角色与场景：用AI工具生成角色、店铺环境和镜头素材，进行筛选调整。",
+        "剪辑与交付：组织镜头、调整节奏，协助达人视频和官方宣传片制作。"
+      ],
+      "judgment": "目标用户关心的不只是能否生成视频，而是能否完成具体创作任务。通过AI短剧、商业视频和社交内容，把技术功能转化为可理解、可参考的工作流。",
+      "goal": "通过真实商业创作任务验证AI视频工具的应用场景，为产品GTM准备作品与创作者案例。",
+      "cardMetrics": [
+        [
+          "3支",
+          "合作达人视频",
+          "3",
+          "Creator videos"
+        ],
+        [
+          "1支",
+          "官方宣传片",
+          "1",
+          "Campaign film"
+        ]
+      ],
+      "processNote": "生成素材需要继续筛选、调整和剪辑，才能进入实际交付。现有资料没有统一工时基线，因此不量化效率提升；本人的职责为创作与传播协同，不是Nova AI产品功能设计负责人。"
+    },
+    {
+      "id": "baike",
+      "company": "BAIDU BAIKE",
+      "category": "CREATOR ECOSYSTEM",
+      "icon": "◎",
+      "tone": "blue",
+      "title": "百度｜创作者生态建设与增长",
+      "titleEn": "Baidu | Creator ecosystem operations",
+      "summary": "参与校园知识合伙人体系建设，通过创作者招募、内容指导、任务分发和激励反馈支持产品传播。",
+      "summaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
+      "tags": [
+        "Creator Operations",
+        "Content Ecosystem",
+        "Growth Mechanism"
+      ],
+      "tagsEn": [
+        "Creator operations",
+        "Content ecosystem",
+        "Growth mechanisms"
+      ],
+      "read": 6,
+      "role": "参与从0到1建设创作者池、内容手册、任务运营及激励回收机制",
+      "roleEn": "Creator systems, community operations, content briefs and performance reporting",
+      "metrics": [
+        [
+          "约300",
+          "正式校园创作者",
+          "~300",
+          "Campus creators"
+        ],
+        [
+          "5,572",
+          "盘点表累计回收内容",
+          "5,572",
+          "Content pieces"
+        ],
+        [
+          "1.37亿+",
+          "Q3起累计阅读¹",
+          "137M+",
+          "Cumulative reads¹"
+        ]
+      ],
+      "intro": "百度百科及相关产品需要通过站外内容传播知识、热点与产品信息。校园知识合伙人计划通过创作者招募、内容指导和任务激励，组织持续内容供给。我的参与包括招募文案、报名流程、资料审核、社群搭建、创作者分类与日常运营。",
+      "introEn": "Creator operations goes beyond community management. Recruitment, clear guidance, tasks and feedback need to work together to sustain content supply.",
+      "insight": "创作者的内容偏好和成熟度不同。统一下发任务之外，还需要按娱乐人物、知识趣梗等方向提供案例、选题来源与表达标准。",
+      "actions": [
+        [
+          "创作者池",
+          "参与招募文案、报名流程、筛选审核和社群组织。"
+        ],
+        [
+          "内容指导",
+          "用手册和Brief说明选题、标题、封面、产品自然植入与发布规范。"
+        ],
+        [
+          "反馈激励",
+          "统计阅读互动，整理优秀案例，通过榜单、奖励与召回维持参与。"
+        ]
+      ],
+      "sop": [
+        [
+          "招募",
+          "负责招募文案、报名筛选和资料审核。",
+          "创作者池"
+        ],
+        [
+          "入驻与分层",
+          "搭建社群，按娱乐人物、知识趣梗等方向分类并提供运营手册。",
+          "入驻指引与内容手册"
+        ],
+        [
+          "任务发布",
+          "结合业务需求下发选题和Brief，明确时限、要求与奖励。",
+          "任务与内容规范"
+        ],
+        [
+          "内容审核",
+          "检查标题封面、内容结构、产品信息和发布要求。",
+          "审核与上线内容"
+        ],
+        [
+          "数据回收",
+          "回收链接、阅读与互动，整理优质案例及结算记录。",
+          "内容与数据盘点"
+        ],
+        [
+          "激励与召回",
+          "按阅读量阶梯激励、Top榜单和优质案例反馈，召回低活跃创作者。",
+          "结算、反馈与下一轮参与"
+        ]
+      ],
+      "resultNote": "正式创作者约300名，后期约150名持续活跃。9.23—10.7盘点表记录累计回收站外内容5,572篇，其中1,352篇阅读超过1万；具体回收起止待核实，不写为最高单月。阅读1.37亿+、点赞108.9万+、收藏10.2万+、评论36.4万+按表内“Q3：7月开始”累计口径展示，均为项目整体数据。",
+      "learning": "创作者生态的长期价值不只在于内容数量，更在于能否建立稳定的生产、反馈与激励机制。这一项目帮助我形成较完整的创作者运营方法，理解内容供给如何支持产品传播与社区生态。",
+      "gallery": [],
+      "source": "百科KOC站外传播数据（9.23—10.7）；热点运营SOP；传播与业务协同需求SOP；内容运营手册。",
+      "stories": [
+        {
+          "heading": "02 / THE CHALLENGE",
+          "body": "创作者项目的关键不只是招募足够多的人，而是如何让不同能力、不同兴趣的创作者持续产出符合业务需求的内容。\r\n\r\n这要求运营同时解决：\r\n\r\n- 创作者如何加入？\r\n- 如何快速理解内容要求？\r\n- 如何匹配适合的选题？\r\n- 如何保障内容质量？\r\n- 如何通过反馈和激励维持参与？"
+        },
+        {
+          "heading": "03 / CREATOR RECRUITMENT",
+          "body": "参与从0到1建设校园创作者池。\r\n\r\n工作包括招募文案、报名流程、资料审核、社群搭建及创作者分类。\r\n\r\n项目峰值沉淀约300名正式创作者，后期维持约150名持续活跃创作者。"
+        },
+        {
+          "heading": "04 / CONTENT ENABLEMENT",
+          "body": "#### 用运营手册降低创作门槛\r\n\r\n围绕娱乐人物、知识趣梗等方向，制作创作者内容运营手册。\r\n\r\n包含：\r\n\r\n- 选题来源和对标案例。\r\n- 标题及封面制作建议。\r\n- 内容结构与表达方式。\r\n- 百科产品信息的自然植入。\r\n- 内容发布及审核要求。\r\n\r\n通过内容指导，帮助创作者更快理解不同内容方向的生产标准。"
+        },
+        {
+          "heading": "05 / OPERATIONS SYSTEM",
+          "body": "#### 建立标准化内容生产流程\r\n\r\n**热点筛选 → 任务下发 → 内容制作 → 审核发布 → 数据回收 → 奖励反馈**\r\n\r\n常规运营通过社群组织创作者持续生产内容。\r\n\r\n专项传播根据业务目标制定独立Brief，明确话题、时间、内容要求及奖励规则。"
+        },
+        {
+          "heading": "06 / CREATOR INCENTIVES",
+          "body": "通过奖励机制和数据反馈，提高创作者持续参与的积极性。\r\n\r\n包括：\r\n\r\n- 根据内容阅读表现给予奖励。\r\n- 通过Top5榜单突出优秀创作者。\r\n- 结合优质案例指导内容生产。\r\n- 对低活跃创作者开展召回。"
+        }
+      ],
+      "cardFocus": "创作者招募 / 供给机制 / 激励召回",
+      "cardSummary": "从0到1参与创作者体系建设，通过手册、任务审核和激励支持持续内容供给。",
+      "cardSummaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
+      "responsibilities": [
+        "创作者池：参与招募文案、报名流程、筛选审核和社群组织。",
+        "内容指导：用手册和Brief说明选题、标题、封面、产品自然植入与发布规范。",
+        "反馈激励：统计阅读互动，整理优秀案例，通过榜单、奖励与召回维持参与。"
+      ],
+      "judgment": "创作者的内容偏好和成熟度不同。统一下发任务之外，还需要按娱乐人物、知识趣梗等方向提供案例、选题来源与表达标准。",
+      "goal": "搭建创作者运营体系，让不同方向的创作者持续产出符合百科传播需求的内容。",
+      "cardMetrics": [
+        [
+          "约300",
+          "正式校园创作者",
+          "~300",
+          "Campus creators"
+        ],
+        [
+          "约150",
+          "持续活跃创作者",
+          "~150",
+          "Active creators"
+        ]
+      ]
     },
     {
       "id": "heritage",
@@ -516,8 +771,8 @@ window.PORTFOLIO = {
       "category": "AI AGENT GTM",
       "icon": "✿",
       "tone": "pink",
-      "title": "百度AI非遗馆：让AI Agent走向用户",
-      "titleEn": "Baidu AI Heritage: bringing AI agents to users",
+      "title": "百度 AI 非遗馆｜AI Agent 场景传播",
+      "titleEn": "Baidu AI Heritage | AI agent scenarios",
       "summary": "通过簪花换装、京剧上妆等体验表达产品价值，协同官方渠道、搜索资源与KOC推进AI Agent传播。",
       "summaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
       "tags": [
@@ -589,7 +844,7 @@ window.PORTFOLIO = {
           "传播内容沉淀"
         ]
       ],
-      "resultNote": "本项目展示产品价值表达、传播方案和执行协同。现有材料不含统一核实的最终曝光汇总，因此不将计划数量作为实际效果。",
+      "resultNote": "本项目展示产品价值表达、传播方案和执行协同。现有材料不含统一核实的最终曝光汇总，因此不将计划数量作为实际效果。 简历记录的500万曝光、34%点击率变化与现有方案尚未建立可核实的项目及统计周期对应关系，暂不作为本案例确定成果。",
       "learning": "GTM传播不仅是发布信息，更要让用户理解产品能够帮助自己完成什么。将技术能力转化为用户场景，再通过多渠道传播放大价值，是这次项目最重要的运营实践。",
       "gallery": [
         [
@@ -611,152 +866,57 @@ window.PORTFOLIO = {
           "heading": "04 / MY CONTRIBUTION",
           "body": "**内容表达**\r\n\r\n参与微信公众号、官方社交媒体和内部传播文案撰写，将产品体验转化为面向普通用户的内容语言。\r\n\r\n**资源协同**\r\n\r\n参与百度系资源位、官方账号、社媒资源和内部渠道的申请与协调。\r\n\r\n**创作者传播**\r\n\r\n调用校园知识合伙人资源，参与专项Brief、内容审核和传播反馈。\r\n\r\n**执行管理**\r\n\r\n跟进内容排期、传播物料、渠道上线及项目进度。"
         }
-      ]
-    },
-    {
-      "id": "baike",
-      "company": "BAIDU BAIKE",
-      "category": "CREATOR ECOSYSTEM",
-      "icon": "◎",
-      "tone": "blue",
-      "title": "百度创作者生态：从0到1参与建设内容供给机制",
-      "titleEn": "Baidu creator ecosystem: building sustainable content supply",
-      "summary": "参与校园知识合伙人体系建设，通过创作者招募、内容指导、任务分发和激励反馈支持产品传播。",
-      "summaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
-      "tags": [
-        "Creator Operations",
-        "Content Ecosystem",
-        "Growth Mechanism"
       ],
-      "tagsEn": [
-        "Creator operations",
-        "Content ecosystem",
-        "Growth mechanisms"
+      "cardFocus": "产品价值表达 / 体验场景 / 多渠道传播",
+      "cardSummary": "以簪花换装和京剧上妆解释AI Agent体验，协同内容物料与传播渠道。",
+      "cardSummaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
+      "responsibilities": [
+        "能力场景化：用簪花换装、戏曲妆容等视觉结果说明体验价值。",
+        "渠道协同：沟通搜索主会场、百科资源位、内宣及社交媒体资源。",
+        "执行跟进：通过传播执行表管理物料、排期、渠道和上线进度。"
       ],
-      "read": 6,
-      "role": "参与从0到1建设创作者池、内容手册、任务运营及激励回收机制",
-      "roleEn": "Creator systems, community operations, content briefs and performance reporting",
-      "metrics": [
+      "judgment": "不同渠道需要不同的信息表达，但要共同服务于产品认知与体验目标。可见的场景价值，比抽象的技术介绍更容易建立连接。",
+      "goal": "把AI Agent能力转化为可体验的文化场景，引导用户理解并尝试AI非遗馆。",
+      "cardMetrics": [
         [
-          "300+",
-          "峰值正式校园创作者",
-          "300+",
-          "Creators at peak"
+          "AI簪花",
+          "传统民俗的视觉体验",
+          "AI styling",
+          "Cultural experience"
         ],
         [
-          "5,572",
-          "累计站外内容",
-          "5,572",
-          "Content pieces"
-        ],
-        [
-          "1.37亿+",
-          "Q3起累计阅读¹",
-          "137M+",
-          "Cumulative reads¹"
+          "京剧上妆",
+          "戏曲元素的互动表达",
+          "Opera makeup",
+          "Interactive expression"
         ]
-      ],
-      "intro": "百度百科及相关产品需要通过站外内容传播知识、热点与产品信息。校园知识合伙人计划通过创作者招募、内容指导和任务激励，组织持续内容供给。我的参与包括招募文案、报名流程、资料审核、社群搭建、创作者分类与日常运营。",
-      "introEn": "Creator operations goes beyond community management. Recruitment, clear guidance, tasks and feedback need to work together to sustain content supply.",
-      "insight": "创作者的内容偏好和成熟度不同。统一下发任务之外，还需要按娱乐人物、知识趣梗等方向提供案例、选题来源与表达标准。",
-      "actions": [
-        [
-          "创作者池",
-          "参与招募文案、报名流程、筛选审核和社群组织。"
-        ],
-        [
-          "内容指导",
-          "用手册和Brief说明选题、标题、封面、产品自然植入与发布规范。"
-        ],
-        [
-          "反馈激励",
-          "统计阅读互动，整理优秀案例，通过榜单、奖励与召回维持参与。"
-        ]
-      ],
-      "sop": [
-        [
-          "热点筛选",
-          "结合娱乐人物、知识趣梗与业务需求确定方向。",
-          "热点与选题"
-        ],
-        [
-          "任务下发",
-          "通过社群和专项Brief明确目标、时间与奖励。",
-          "内容任务"
-        ],
-        [
-          "内容制作",
-          "用运营手册和案例降低生产门槛。",
-          "创作者内容"
-        ],
-        [
-          "审核发布",
-          "检查内容质量、品牌信息与发布要求。",
-          "上线内容"
-        ],
-        [
-          "数据回收",
-          "收集内容链接、阅读与互动，整理优质案例。",
-          "运营数据"
-        ],
-        [
-          "奖励反馈",
-          "通过奖励、Top5榜单、案例指导和召回维持参与。",
-          "下一轮参与"
-        ]
-      ],
-      "resultNote": "峰值300+正式创作者，后期约150名持续活跃创作者。累计站外内容5572篇，其中1352篇阅读超过1万；同期点赞108.9万+、收藏10.2万+、评论36.4万+。阅读量按9.23—10.7盘点表“Q3：7月开始”累计口径展示，不是双周新增，均为项目整体数据。",
-      "learning": "创作者生态的长期价值不只在于内容数量，更在于能否建立稳定的生产、反馈与激励机制。这一项目帮助我形成较完整的创作者运营方法，理解内容供给如何支持产品传播与社区生态。",
-      "gallery": [],
-      "source": "百科KOC站外传播数据（9.23—10.7）；热点运营SOP；传播与业务协同需求SOP；内容运营手册。",
-      "stories": [
-        {
-          "heading": "02 / THE CHALLENGE",
-          "body": "创作者项目的关键不只是招募足够多的人，而是如何让不同能力、不同兴趣的创作者持续产出符合业务需求的内容。\r\n\r\n这要求运营同时解决：\r\n\r\n- 创作者如何加入？\r\n- 如何快速理解内容要求？\r\n- 如何匹配适合的选题？\r\n- 如何保障内容质量？\r\n- 如何通过反馈和激励维持参与？"
-        },
-        {
-          "heading": "03 / CREATOR RECRUITMENT",
-          "body": "参与从0到1建设校园创作者池。\r\n\r\n工作包括招募文案、报名流程、资料审核、社群搭建及创作者分类。\r\n\r\n项目峰值沉淀300+正式创作者，后期维持约150名持续活跃创作者。"
-        },
-        {
-          "heading": "04 / CONTENT ENABLEMENT",
-          "body": "#### 用运营手册降低创作门槛\r\n\r\n围绕娱乐人物、知识趣梗等方向，制作创作者内容运营手册。\r\n\r\n包含：\r\n\r\n- 选题来源和对标案例。\r\n- 标题及封面制作建议。\r\n- 内容结构与表达方式。\r\n- 百科产品信息的自然植入。\r\n- 内容发布及审核要求。\r\n\r\n通过内容指导，帮助创作者更快理解不同内容方向的生产标准。"
-        },
-        {
-          "heading": "05 / OPERATIONS SYSTEM",
-          "body": "#### 建立标准化内容生产流程\r\n\r\n**热点筛选 → 任务下发 → 内容制作 → 审核发布 → 数据回收 → 奖励反馈**\r\n\r\n常规运营通过社群组织创作者持续生产内容。\r\n\r\n专项传播根据业务目标制定独立Brief，明确话题、时间、内容要求及奖励规则。"
-        },
-        {
-          "heading": "06 / CREATOR INCENTIVES",
-          "body": "通过奖励机制和数据反馈，提高创作者持续参与的积极性。\r\n\r\n包括：\r\n\r\n- 根据内容阅读表现给予奖励。\r\n- 通过Top5榜单突出优秀创作者。\r\n- 结合优质案例指导内容生产。\r\n- 对低活跃创作者开展召回。"
-        }
       ]
     }
   ],
   "experience": [
     [
-      "2026.07—09",
-      "山海星辰传媒",
-      "AI管培生 · 品牌营销",
-      "AI商业内容创意与视频制作"
+      "2026.07—2026.09",
+      "山海星辰传媒集团有限公司",
+      "AI管培生 · 市场与品牌发展中心",
+      "AI创作场景、脚本策划、视频生成剪辑与创作者合作"
     ],
     [
       "2025.10—2026.04",
-      "富途 moomoo",
+      "富途网络科技(深圳)有限公司",
       "内容营销 · 全球市场部",
-      "财经内容策略、KOC协作与AI账号孵化"
+      "产品内容策略、KOC协作、IPO专题与AI账号孵化"
     ],
     [
-      "2025.05—08",
-      "小米科技",
+      "2025.04—2025.08",
+      "小米科技有限责任公司",
       "产品运营 · 小爱同学运营部",
-      "AI玩法、测试评估与社媒传播"
+      "AI玩法策划、模型效果评测、上线传播与数据复盘"
     ],
     [
-      "2024.06—11",
+      "2024.06—2024.11",
       "百度",
       "热点品牌运营 · 移动生态事业群组",
-      "创作者社群、内容运营与AI专项协同"
+      "创作者体系、内容运营机制与AI专项传播"
     ]
   ],
   "tools": [
@@ -772,8 +932,8 @@ window.PORTFOLIO = {
     "title": "让产品价值被看见，让用户增长真实发生。",
     "titleEn": "Make product value clear. Make growth happen.",
     "subtitle": "产品策划 / GTM / 内容增长 / 创作者生态",
-    "intro": "从产品能力与业务目标出发，洞察用户的真实需求，将产品价值转化为具体的使用场景、内容策略与运营方案，再通过渠道传播、创作者协同和数据反馈推动项目落地。",
-    "introEn": "Connecting product capabilities and business goals with real user needs, practical scenarios, content strategies and creator collaboration.",
+    "intro": "关注 AI 技术在真实用户场景中的应用，拥有 AI 玩法策划、产品上线推广、用户增长及创作者运营经验，擅长将产品能力转化为用户易理解、愿意参与的具体体验。",
+    "introEn": "Connecting AI capabilities with real user needs through scenario planning, product launches, growth operations and creator ecosystems.",
     "question": "如何让用户理解产品、愿意使用产品，并通过运营推动持续增长。",
     "expertise": [
       [
@@ -792,7 +952,10 @@ window.PORTFOLIO = {
         "Creator Ecosystem",
         "创作者生态与运营机制"
       ]
-    ]
+    ],
+    "identity": "AI 产品运营｜北师大硕士｜小米 · 百度 · 富途",
+    "identityEn": "AI Product Operations | BNU Master’s | Xiaomi · Baidu · moomoo",
+    "connection": "连接 AI 技术能力、用户需求与产品增长。"
   },
   "about": {
     "title": "从内容创意出发，向产品运营与增长深入。",
@@ -829,46 +992,89 @@ window.PORTFOLIO = {
     {
       "id": "xhs-1",
       "platform": "小红书",
-      "label": "小红书 · 独立孵化账号 01",
+      "label": "添财学姐",
       "role": "独立孵化",
       "kind": "incubated",
       "url": "https://www.xiaohongshu.com/user/profile/6506e29f0000000016039d48",
-      "description": "账号定位、内容规划、AI辅助制作、发布及关键词优化。"
+      "description": "AI视频制作、财经选题与SEO优化。",
+      "platformId": "6444979521",
+      "positioning": "财经知识与资讯 · AI视频",
+      "metrics": [
+        [
+          "1076",
+          "累计粉丝"
+        ],
+        [
+          "800+",
+          "单条播放"
+        ],
+        [
+          "174",
+          "平均互动"
+        ]
+      ],
+      "metricNote": "简历记录，非平台实时数据；互动统计范围待核实。",
+      "previewNote": "账号截图与代表作品预览待补充。"
     },
     {
       "id": "xhs-2",
       "platform": "小红书",
-      "label": "小红书 · 独立孵化账号 02",
+      "label": "Manja理财日记",
       "role": "独立孵化",
       "kind": "incubated",
       "url": "https://www.xiaohongshu.com/user/profile/68774a2f000000001d016eca",
-      "description": "围绕垂直内容进行选题与搜索优化，通过互动反馈迭代。"
+      "description": "AI图文生产、内容规划与搜索优化。",
+      "platformId": "95534931415",
+      "positioning": "财经知识与资讯 · AI图文",
+      "metrics": [
+        [
+          "192",
+          "粉丝"
+        ],
+        [
+          "412",
+          "平均互动"
+        ]
+      ],
+      "metricNote": "简历记录，非平台实时数据；互动统计范围待核实。",
+      "previewNote": "账号截图与代表作品预览待补充。"
     },
     {
       "id": "dy-1",
       "platform": "抖音",
-      "label": "抖音 · 参与运营账号 01",
+      "label": "VISION WALK幻旅之门·沉浸VR",
       "role": "参与运营 / 视频制作",
       "kind": "operated",
       "url": "https://www.douyin.com/user/MS4wLjABAAAAu9dyJzijg_O3tDJoPNoETvlZuGC7y8Hx9K_yj6D4yEDVpwArtoM-A2XdGOOcYrfq",
-      "description": "负责品牌系列故事、大空间系列故事、消费者感受、B端招商及产品介绍视频。"
+      "description": "参与品牌账号运营，负责品牌故事、大空间系列、消费者感受、招商和产品介绍视频。",
+      "platformId": "31095427408",
+      "positioning": "沉浸VR品牌内容",
+      "metrics": [],
+      "metricNote": "",
+      "previewNote": ""
     },
     {
       "id": "dy-2",
       "platform": "抖音",
-      "label": "抖音 · 参与运营账号 02",
+      "label": "VISION WALK商业合作",
       "role": "参与运营 / 视频制作",
       "kind": "operated",
       "url": "https://www.douyin.com/user/MS4wLjABAAAAYn4_XW_mBpLcp1JWf-uPYLmAV-Dymym1qFqFSHEuoWU",
-      "description": "负责品牌系列故事、大空间系列故事、消费者感受、B端招商及产品介绍视频。"
+      "description": "参与账号运营及品牌、招商、产品内容的视频制作与剪辑。",
+      "platformId": "28013718289",
+      "positioning": "品牌商业合作与B端招商",
+      "metrics": [],
+      "metricNote": "",
+      "previewNote": ""
     },
     {
       "kind": "personal",
       "platform": "小红书",
       "role": "个人创作",
-      "label": "小红书 · 个人创作账号",
+      "label": "Janice的个人创作",
       "description": "个人内容创作主页，独立于财经账号孵化与品牌账号运营展示。",
-      "url": "https://www.xiaohongshu.com/user/profile/5b71a783f04109000153b466"
+      "url": "https://www.xiaohongshu.com/user/profile/5b71a783f04109000153b466",
+      "positioning": "个人图文与社媒创作"
     }
   ],
   "lab": {
@@ -905,5 +1111,19 @@ window.PORTFOLIO = {
       "后期剪辑",
       "最终作品"
     ]
-  }
+  },
+  "resume": {
+    "url": "assets/janice-resume.pdf",
+    "filename": "邱雅婧-AI产品运营.pdf",
+    "note": "简历中的5,572篇已统一为累计回收口径；具体统计起止仍待核实。"
+  },
+  "pending": [
+    "百度5,572篇内容回收的具体统计起止，以及约150名活跃创作者的活跃定义。",
+    "富途IPO复盘节点（8—9月）与简历任职期2025.10—2026.04的年份、参与阶段对应关系。",
+    "开户80+的统计区间、去重与归因方式；不把搜索增长单独归因于内容比例调整。",
+    "AI非遗馆500万曝光和34%点击率变化的项目归属及原始结果报表。",
+    "Nova简历当日曝光1588万与历史材料不同曝光数的统计差异；7005.3万为话题截图累计播放，截图日期待补。",
+    "两孵化账号的真实截图、代表作品链接，均互动174/412的统计口径，以及Good/Bad原始对照图片。",
+    "账号名称按本轮提供顺序与原主页对应，平台账号号及主页的最终匹配待再次核对。"
+  ]
 };
