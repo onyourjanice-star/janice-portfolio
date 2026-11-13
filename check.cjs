@@ -52,7 +52,7 @@ for(const p of projects){
 const html = fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+\.(?:css|js))"/g))assert(fs.existsSync(path.join(root,match[1])));
 const names=fs.readdirSync(root,{recursive:true}).map(String);
-assert(!names.some(p=>/\.(pdf|docx|xlsx|pptx)$/i.test(p)&&p.replaceAll('\\','/')!=='assets/janice-resume.pdf'),'Only the explicitly authorized public resume may enter web assets');
+assert(!names.some(p=>/\.(pdf|docx|xlsx|pptx)$/i.test(p)&&!['assets/janice-resume.pdf','assets/baidu-entertainment-brief.pdf','assets/baidu-knowledge-brief.pdf'].includes(p.replaceAll('\\','/'))),'Only the resume and two user-authorized PDF briefs may enter web assets');
 assert(!names.some(p=>p.includes('materials')),'Research data must not enter web assets');
 const appSource=fs.readFileSync(path.join(root,'app.js'),'utf8');
 const noteStart=appSource.indexOf('  function markdownNotes('),noteEnd=appSource.indexOf('\n  function videoCard(',noteStart);

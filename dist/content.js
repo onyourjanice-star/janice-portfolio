@@ -187,7 +187,29 @@ window.PORTFOLIO = {
         "results": "May Day: 597K UV and 439K generated images. Children’s Day: 552K UV, 126K generated images and 41K brand conversion UV.",
         "reflection": "An appealing concept may not generate reliably across complex inputs. In future work, I would examine success rates by scenario, error distributions and the path from entry to completed generation.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
-      }
+      },
+      "experienceEvidence": [
+        [
+          "assets/xiaomi-evidence-1.png",
+          "AI玩法体验流程：入口、上传、风格选择与生成结果",
+          "AI experience flow: entry, upload, style selection and output"
+        ],
+        [
+          "assets/xiaomi-evidence-3.png",
+          "超级小爱首页 · 六一手办玩法入口",
+          "Super XiaoAI homepage · Children’s Day entry"
+        ],
+        [
+          "assets/xiaomi-evidence-4.png",
+          "发现页 · 六一手办玩法入口",
+          "Discover page · Children’s Day entry"
+        ]
+      ],
+      "funnelEvidence": [
+        "assets/xiaomi-evidence-2.png",
+        "六一活动漏斗：552,333首页UV → 103,811参与点击UV → 58,393生成中页面UV → 52,010完成页面UV → 20,286保存点击UV；总转化率3.67%。",
+        "Children’s Day funnel: 552,333 homepage UV → 103,811 participation-click UV → 58,393 generating-page UV → 52,010 completed-page UV → 20,286 save-click UV; total conversion 3.67%."
+      ]
     },
     {
       "id": "futu",
@@ -852,8 +874,8 @@ window.PORTFOLIO = {
       "read": 4,
       "role": "传播资源协同、文案撰写审核、创作者联动与执行跟进",
       "roleEn": "Channel coordination, copywriting, creator briefs and delivery tracking",
-      "cover": "assets/heritage-posters.png",
-      "coverLabel": "AI非遗馆系列海报 · 项目传播视觉",
+      "cover": "assets/heritage-1.png",
+      "coverLabel": "百度百科AI非遗馆 · 场景传播主视觉",
       "metrics": [
         [
           "AI簪花",
@@ -969,7 +991,67 @@ window.PORTFOLIO = {
         "results": "This case focuses on scenario communication and execution. Existing project materials appear in Evidence; no unverified outcome figures have been added.",
         "reflection": "Product communication should start with a recognizable use case. I want to develop further across the path from initial understanding to activation.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
-      }
+      },
+      "evidenceGroups": [
+        {
+          "title": "产品界面与互动体验",
+          "titleEn": "Product interface & interactive experiences",
+          "items": [
+            [
+              "assets/heritage-4.png",
+              "AI非遗馆首页与导览界面",
+              "Museum homepage and guide"
+            ],
+            [
+              "assets/heritage-7.png",
+              "京剧上妆：交互引导与效果示例",
+              "Peking opera styling: guidance and output examples"
+            ],
+            [
+              "assets/heritage-8.png",
+              "簪花换装：交互引导与效果示例",
+              "Floral styling: guidance and output examples"
+            ],
+            [
+              "assets/heritage-9.png",
+              "非遗知识问答与角色互动界面",
+              "Heritage Q&A and character interaction"
+            ]
+          ]
+        },
+        {
+          "title": "传播视觉",
+          "titleEn": "Campaign visuals",
+          "items": [
+            [
+              "assets/heritage-5.png",
+              "非遗主题智能体系列传播海报（一）",
+              "Heritage Agent campaign poster series I"
+            ],
+            [
+              "assets/heritage-6.png",
+              "非遗主题智能体系列传播海报（二）",
+              "Heritage Agent campaign poster series II"
+            ]
+          ]
+        },
+        {
+          "title": "项目发布现场",
+          "titleEn": "Project launch & event",
+          "items": [
+            [
+              "assets/heritage-2.png",
+              "AI非遗馆产品发布现场 · 项目活动素材",
+              "AI Heritage Museum launch · project event material"
+            ],
+            [
+              "assets/heritage-3.png",
+              "AI非遗馆展区交流现场 · 项目活动素材",
+              "AI Heritage Museum exhibition · project event material"
+            ]
+          ]
+        }
+      ]
     }
   ],
   "experience": [
@@ -1214,5 +1296,59 @@ window.PORTFOLIO = {
     "aboutEn": "## From content expression to products and users.\nI’m Yajing Qiu, also known as Janice. I studied broadcasting and presenting at Jianghan University, then broadcasting and new media at Beijing Normal University.\nMy experience has shifted my attention from making content to helping people understand, use and value products. Content makes products understandable; technology expands their capabilities; operations helps them deliver value in real situations.\n## 01 / From creating content to understanding users\n**Good content responds to real needs.**\nMy studies gave me a foundation in storytelling, topic planning and video production. At Futu, I began connecting financial topics with users’ information needs and product use cases.\nAt Baidu, I moved from individual posts to the mechanisms behind content supply: recruiting creators, setting standards, reducing participation barriers and maintaining feedback. I learned to consider user behavior and repeatable operating processes alongside creative quality.\n## 02 / From user needs to AI product experience\n**Technology needs a reason for people to use it.**\nWorking on Xiaomi Super XiaoAI experiences helped shape my direction. Users care whether a feature is enjoyable, whether it produces a satisfying result and whether they want to share it.\nI contributed to seasonal scenarios, creative planning, output testing, issue feedback and launch communications. Ideas must respect model limitations; experiences need testing with varied inputs; launches need usage feedback. This is why I want to develop in AI product and application operations.\n## 03 / From using tools to creating\n**I prefer to learn by making something.**\nAt Shanhai Xingchen, I contributed to scripts, AI video generation and editing. Building this portfolio with AI-assisted development has also helped me practice content architecture, interaction requirements and deployment iteration.\nThese projects make me consider workflows, output quality, limitations and practical problem solving alongside tool features.\n## How I Work\n### Start with the goal\nClarify the user, business problem and measurement approach before breaking work into actionable steps.\n### Combine creativity with delivery\nI enjoy creative ideas and also take on testing, coordination, review and reporting to help deliver them.\n### Learn from feedback\nI look for what worked, where the process failed and what could improve next time.\n## What I’m Exploring\n### AI Product Experience\nScenarios, model evaluation, user feedback and experience improvement.\n### Product & User Growth\nActivation, retention, content-led acquisition and analysis.\n### AI-native Workflows\nAI-assisted content production, information organization and operations.\nI want to connect technology, products and users through practical work.",
     "labIntroEn": "This page records hands-on experiments alongside selected project work: videos, accounts, AI experiments, visual assets and this portfolio. I start with a real problem or an interesting idea, try different ways to express it, and learn through making.",
     "siteExperimentEn": "From content structure and case organization to interaction requirements, I use AI-assisted development to build and improve this portfolio. It is an ongoing experiment in turning project experience into a browsable digital space.\n\n**My role:** content planning, information architecture, interaction requirements, AI-assisted development and iteration testing."
+  },
+  "editorial": {
+    "about": [
+      {
+        "title": "从表达开始",
+        "body": "本科播音专业的学习，让我建立了语言表达、视觉叙事与内容创作的基础。\n\n研究生阶段，我开始进一步关注新媒体环境中的内容传播、用户行为和数字产品。\n\n在不同内容形式之间切换的过程，让我逐渐认识到：创意不只是好的表达，更需要考虑受众、场景与最终效果。",
+        "titleEn": "From expression",
+        "bodyEn": "My undergraduate studies in broadcasting gave me a foundation in speaking, visual storytelling and content creation. During my master’s studies, I explored new media, audience behavior and digital products. Creative work taught me to consider the audience, context and outcome alongside the expression itself."
+      },
+      {
+        "title": "在真实业务中理解用户",
+        "body": "在富途，我尝试通过金融内容连接用户兴趣与产品功能。\n\n在百度，我参与创作者生态运营，理解如何通过任务、激励和协作机制形成持续内容供给。\n\n在小米，我进一步接触AI产品策划与模型效果评测，开始从用户体验和产品能力的角度理解创意。\n\n这些经历让我逐渐建立了一种工作习惯：先理解问题，再寻找能够落地的解决方式。",
+        "titleEn": "Understanding users through real work",
+        "bodyEn": "At Futu, I connected financial content with user interests and product functions. At Baidu, I contributed to creator operations through tasks, incentives and collaboration. At Xiaomi, AI scenario planning and model evaluation brought my attention to user experience and product capabilities. I learned to understand the problem before looking for a practical solution."
+      },
+      {
+        "title": "保持好奇，持续实践",
+        "body": "我对AI、数字产品与新兴创作工具保持兴趣。\n\n从AI视频制作，到借助Vibe Coding搭建自己的作品集网站，我喜欢在实践中理解新工具的能力与边界。\n\n相比只关注技术本身，我更关心它能带来怎样的新体验，以及如何被应用到真实场景中。",
+        "titleEn": "Stay curious. Keep making.",
+        "bodyEn": "I stay curious about AI, digital products and emerging creative tools. Making AI videos and building this portfolio with AI-assisted coding help me understand what tools can and cannot do. I care about the experiences they make possible and how they work in real situations."
+      },
+      {
+        "title": "What's Next?",
+        "body": "我希望继续探索AI产品与用户之间的连接。\n\n关注产品体验、用户增长和AI应用，也希望在真实业务中积累更系统的产品判断、数据分析和增长实践能力。\n\n对我而言，成长不是不断增加新的技能标签，而是让已有的经验逐渐形成更完整的解决问题能力。",
+        "titleEn": "What’s next?",
+        "bodyEn": "I want to keep exploring the connection between AI products and users, and develop more systematic product judgment, analysis and growth practice through real work. Growth means connecting what I have learned into a more complete way of solving problems."
+      }
+    ],
+    "methods": [
+      {
+        "title": "理解问题",
+        "body": "好的方案，始于对问题的准确理解。\n\n我习惯先确认业务目标、用户需求与实际场景，再拆解任务、梳理限制条件，明确怎样的结果才算有效。",
+        "titleEn": "Understand the problem",
+        "bodyEn": "A useful solution starts with understanding the problem. I clarify the business goal, user needs and real context, then break down tasks, constraints and what an effective result would look like."
+      },
+      {
+        "title": "将想法变成可执行的方案",
+        "body": "创意需要想象力，也需要现实约束。\n\n我能够从内容策划、脚本、传播方案和执行流程出发，将一个抽象概念逐步转化为可以实际制作、协作和交付的成果。",
+        "titleEn": "Make an idea executable",
+        "bodyEn": "Creativity needs imagination and practical constraints. I turn concepts into scripts, content plans, campaign materials and execution steps that can be produced, coordinated and delivered."
+      },
+      {
+        "title": "连接产品、内容与用户",
+        "body": "不同团队使用不同的语言。\n\n产品团队关注功能与能力，用户关注实际价值，传播团队关注怎样让信息被理解与接受。\n\n我希望在这些不同需求之间建立连接，让复杂的信息变得清晰，并推动协作落地。",
+        "titleEn": "Connect product, content and users",
+        "bodyEn": "Product teams focus on capabilities; users focus on value; communications teams focus on understanding. I help make information clearer and support collaboration across these needs."
+      },
+      {
+        "title": "用反馈推动下一次优化",
+        "body": "项目上线不是结束。\n\n我关注真实反馈、内容表现与关键运营数据，通过问题分类、效果复盘和迭代建议，寻找持续改进的方向。",
+        "titleEn": "Improve through feedback",
+        "bodyEn": "Launch is not the end. I review real feedback, content performance and operating data, classify problems and look for improvements for the next iteration."
+      }
+    ]
   }
 };
