@@ -1,0 +1,6 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx={window:{},document:{querySelector:()=>({})},localStorage:{getItem:()=>null},URLSearchParams};vm.createContext(ctx);vm.runInContext(fs.readFileSync(require('node:path').join(__dirname,'dist/content.js'),'utf8'),ctx);
+let src=fs.readFileSync(require('node:path').join(__dirname,'dist/app.js'),'utf8');src=src.slice(0,src.indexOf('  const routeScroll'))+';window.preview=(language)=>{lang=language;return [home(),about(),lab(),resume(),...data.projects.map(detail)]};})();';vm.runInContext(src,ctx);
+for(const language of ['zh','en']){const pages=ctx.window.preview(language);for(const html of pages){assert(!html.includes('undefined'),language+' missing copy');assert(!html.includes('建议在此呈现'));assert(!html.includes('工作年限争议'));}assert(!pages[0].includes('class="stats"'));for(const html of pages.slice(4)){for(const section of ['context','judgment','role','action','results','learning','evidence'])assert(html.includes('id="case-'+section+'"'));}assert(pages[2].includes('AI Experiments'));assert(pages[2].includes('Social Media & Content'));assert(pages[2].includes('Visual Storytelling'));}
+console.log('PASS: nine pages in both languages; complete case sections, no missing copy, three Lab groups, no repeated headline stats.');
+
