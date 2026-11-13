@@ -9,9 +9,9 @@ window.PORTFOLIO = {
       "category": "AI PRODUCT OPERATIONS",
       "icon": "✳",
       "tone": "sage",
-      "title": "小米｜AI 产品玩法策划与上线运营",
-      "titleEn": "Xiaomi | AI scenario planning & launch",
-      "summary": "把AI技术能力转化为用户愿意尝试的产品玩法。参与场景策划、模型效果评估、上线传播与复盘。",
+      "title": "小米｜AI创新技能策划与模型效果评测",
+      "titleEn": "Xiaomi | AI scenario planning & model evaluation",
+      "summary": "从节日创意到产品体验：让AI生图能力成为用户愿意参与和分享的玩法。",
       "summaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
       "tags": [
         "产品策划",
@@ -122,8 +122,8 @@ window.PORTFOLIO = {
           "body": "#### 07 / PRODUCT EXPERIENCE：如何让生成结果更加稳定？\r\n\r\n六一童年手办玩法围绕儿童节与童年回忆，通过AI将用户上传的人物照片转化为3D摆件图片。\r\n\r\n相较于五一旅行拍立得，六一玩法在视觉风格、人物比例、多人完整度等方面提出了更多生成质量要求。\r\n\r\n项目围绕盲盒、旋转木马、水晶球等视觉方向开展方案探索和效果评估。\r\n\r\n#### 08 / MODEL EVALUATION：建立结构化的效果评估方式\r\n\r\n我参与AI生成测试集建设及结果评估。\r\n\r\n测试场景覆盖单人、双人、多人和宠物等输入类型，主要从以下维度判断生成结果：\r\n\r\n**成图率**\r\n\r\n是否能够成功生成目标图片。\r\n\r\n**主体识别**\r\n\r\n是否准确保留输入照片中的人物及其他主体。\r\n\r\n**人物比例**\r\n\r\n头身比例、构图与视觉效果是否符合预期。\r\n\r\n**风格一致性**\r\n\r\n不同输入素材能否保持目标视觉风格。\r\n\r\n**画面畸变**\r\n\r\n是否出现人物结构异常、肢体畸变等情况。\r\n\r\n**多人完整性**\r\n\r\n是否出现漏人或人物信息丢失。\r\n\r\n#### 09 / KEY FINDINGS：从测试结果识别体验问题\r\n\r\n在实际评估中，发现不同风格存在头部比例偏大、多人生成稳定性不足及宠物结构异常等问题。\r\n\r\n例如，盲盒风格单人场景的比例合适率，小爱测试结果为50%，同期GPT对照结果为57.5%。\r\n\r\n通过将生成结果按风格、人物数量和问题类型拆分，能够更具体地描述模型表现，而不是仅根据少量优秀样张进行评价。\r\n\r\n#### 10 / PROJECT RESULTS\r\n\r\n**55.2万** 活动页面UV\r\n\r\n**12.6万** 图片生成量\r\n\r\n**4.1万** 品牌转化UV\r\n\r\n**29%** 小米用户中拉新及召回占比\r\n\r\n#### 11 / MY CONTRIBUTION\r\n\r\n**产品场景策划**\r\n\r\n参与用户场景洞察、玩法创意和方案评审。\r\n\r\n**模型效果评估**\r\n\r\n参与测试集构建、Good/Bad案例整理及生成问题反馈。\r\n\r\n**上线与传播协同**\r\n\r\n协助官方内容、KOC Brief、内容审核与社媒传播。\r\n\r\n**数据复盘**\r\n\r\n参与整理用户参与及项目表现，观察不同玩法的效果。"
         }
       ],
-      "cardFocus": "用户场景 → 玩法策划 → 评测反馈 → 上线运营",
-      "cardSummary": "参与旅行拍立得、童年手办玩法策划，整理生成问题并协同上线传播。",
+      "cardFocus": "AI产品策划 · 模型效果评测",
+      "cardSummary": "从节日创意到产品体验：让AI生图能力成为用户愿意参与和分享的玩法。",
       "cardSummaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
       "responsibilities": [
         "AI内容场景及玩法策划",
@@ -171,7 +171,23 @@ window.PORTFOLIO = {
           "已整理并反馈；未取得最终改善幅度。"
         ]
       ],
-      "modelNote": "模型反馈与上线验收为本人参与工作；现有材料未提供逐项修复结果或统一提升率，不新增优化成效。原始Good/Bad对照图片待补充。"
+      "modelNote": "模型反馈与上线验收为本人参与工作；现有材料未提供逐项修复结果或统一提升率，不新增优化成效。原始Good/Bad对照图片待补充。",
+      "v2Sections": {
+        "项目背景": "超级小爱持续探索生成式AI在消费级产品中的应用。\n\n节日及热点场景是让用户感知AI能力的一个重要入口。与单纯展示模型功能不同，场景化玩法需要让用户快速理解如何参与，并以较低的操作成本获得有趣、符合预期的生成结果。\n\n项目围绕五一、六一、毕业季等时间节点，设计AI创意互动体验，并通过产品与传播渠道触达用户。",
+        "核心问题": "**如何让AI生图技术变成易理解、可参与、可传播的产品功能？**\n\n项目需要同时解决三个问题：\n\n1. 选择用户熟悉且有分享意愿的主题和视觉形式。\n2. 在创意效果与模型能力之间取得平衡，减少生成异常。\n3. 将功能玩法转化为清晰的使用引导和传播内容。",
+        "我的工作": "### 01 / 玩法策划与用户场景拆解\n\n参与五一3D旅行拍立得、六一童年手办、毕业季拍立得等AI创新玩法的策划。\n\n结合节日情绪、用户使用场景与社交传播特点，整理创意方向和玩法需求，参与方案讨论与评审。\n\n### 02 / 模型效果评测\n\n参与AI生成效果测试集整理、模型生成结果检查及问题标注。\n\n围绕单人、多人、宠物等不同输入场景，关注生成成功情况、主体识别、人物比例、风格一致性、人物畸变和漏人等问题。\n\n结合Good Case与Bad Case，反馈模型效果异常，并与相关团队协作推进后续测试和优化。\n\n### 03 / 上线体验与传播协作\n\n参与H5体验检查、传播物料及达人Brief相关工作，支持官号、社区、达人等多渠道推广。\n\n在传播环节重点关注：如何降低用户理解成本，以及怎样通过案例展示AI功能的实际效果。",
+        "项目成果": "**五一AI玩法**\n\n- 累计UV：59.7万\n- 生成图片：43.9万张\n\n**六一AI玩法**\n\n- 累计UV：55.2万\n- 生成图片：12.6万张\n- 品牌转化UV：4.1万\n\n以上为项目整体效果数据，我主要参与玩法策划、模型效果评测与上线传播相关环节。",
+        "我的复盘": "这个项目让我认识到，AI功能的创意设计必须考虑模型真实能力。\n\n一个视觉效果很吸引人的创意，不一定能够在复杂输入条件下稳定生成。因此，在玩法策划阶段就需要考虑输入类型、风格范围、人物数量与生成质量。\n\n如果重新梳理这一项目，我会更加关注不同场景下的生成成功率、异常类型分布，以及用户从进入页面到完成生成的体验路径，用更结构化的指标支持后续优化。\n\n**我从中积累的不只是AI内容策划经验，更是将用户场景、模型能力与产品体验连接起来的方法。**"
+      },
+      "v2En": {
+        "context": "Image generation becomes useful when it connects with something people already want to do. These experiences turn travel photos and childhood memories into accessible, shareable AI creations.",
+        "problem": "How can AI image generation become an understandable, accessible and shareable experience?",
+        "role": "I contributed to seasonal ideas, test-set preparation, output checks, issue feedback and launch communications.",
+        "process": "### Scenario planning\nContributed to May Day travel polaroids, Children’s Day figurines and graduation polaroids.\n### Model evaluation\nChecked single-person, group and pet inputs for subject recognition, proportions, style consistency, missing people and distortions; organized good and bad cases for follow-up.\n### Launch support\nSupported H5 experience checks, creator briefs and channel materials.",
+        "results": "May Day: 597K UV and 439K generated images. Children’s Day: 552K UV, 126K generated images and 41K brand conversion UV.",
+        "reflection": "An appealing concept may not generate reliably across complex inputs. In future work, I would examine success rates by scenario, error distributions and the path from entry to completed generation.",
+        "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
+      }
     },
     {
       "id": "futu",
@@ -179,9 +195,9 @@ window.PORTFOLIO = {
       "category": "CONTENT GROWTH",
       "icon": "↗",
       "tone": "orange",
-      "title": "富途 moomoo｜产品内容增长与用户转化",
-      "titleEn": "moomoo | Product content & growth",
-      "summary": "以用户关心的财经内容为入口，将产品功能融入个股、IPO与投资场景，支持产品认知与业务增长。",
+      "title": "富途｜以内容驱动金融科技产品认知与增长",
+      "titleEn": "Futu | Content-led product education & growth",
+      "summary": "将用户关心的金融话题，转化为理解和使用产品的入口。",
       "summaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
       "tags": [
         "Product Education",
@@ -377,8 +393,8 @@ window.PORTFOLIO = {
           ]
         ]
       },
-      "cardFocus": "产品内容策略 / KOC矩阵 / 搜索增长",
-      "cardSummary": "围绕IPO节点组织内容与KOC分发，根据需求和反馈调整传播节奏。",
+      "cardFocus": "产品内容化 · 用户兴趣与增长链路",
+      "cardSummary": "将用户关心的金融话题，转化为理解和使用产品的入口。",
       "cardSummaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
       "responsibilities": [
         "内容选题与产品信息植入",
@@ -403,7 +419,23 @@ window.PORTFOLIO = {
         ]
       ],
       "phaseNote": "两轮复盘将上市前内容占比从约15%调整至约40%，提前覆盖新股资讯和申购需求；这属于内容节奏迭代，不是A/B实验，也不能单独解释全部曝光、搜索或开户增长。",
-      "conversionNote": "简历另记录项目引导开户80+；原始归因规则、去重方式与统计区间待核实，暂不并入首页核心成果。"
+      "conversionNote": "简历另记录项目引导开户80+；原始归因规则、去重方式与统计区间待核实，暂不并入首页核心成果。",
+      "v2Sections": {
+        "项目背景": "金融科技产品的功能往往具有一定的理解门槛。相比直接介绍功能，用户通常更关注个股信息、IPO动态、投资机会和实际使用体验。\n\n在富途的内容运营项目中，我们尝试围绕这些用户兴趣场景，将富途牛牛及moomoo产品功能融入社媒内容，支持产品认知、品牌口碑和用户增长。",
+        "核心问题": "**如何让用户从关注财经内容，进一步产生对产品的兴趣？**\n\n单纯追求内容曝光，并不能直接证明产品获得了增长。\n\n内容需要同时满足用户的信息需求与产品传播目标，让产品功能出现在合理的使用场景中，而不是生硬植入广告。",
+        "我的工作": "### 01 / 用户兴趣与内容策略\n\n围绕热门个股、IPO节点、申购流程及投资者常见问题，参与内容选题与策略设计。\n\n通过资讯解读、功能教程、申购经验及收益晒单等形式，将产品功能和用户需求连接起来。\n\n### 02 / KOC与账号矩阵运营\n\n参与小红书KOC内容分发、稿件审核及账号矩阵协作，结合不同账号的内容定位调整选题和表达方式。\n\n同时参与素人账号内容生产与运营，积累了账号冷启动、内容策划及传播效果分析经验。\n\n### 03 / 用户反馈与品牌口碑\n\n参与社媒舆情监测、问题分类及内容反馈处理，协同推动负面信息处置与正向内容建设。\n\n在这一过程中，我更加关注用户对产品的真实感受，以及社媒反馈如何反映产品使用问题。\n\n### 04 / IPO专项传播\n\n围绕IPO营销节点，参与信息梳理、内容模板策划、KOC协作和传播数据回收。\n\n通过将资讯内容与产品功能结合，支持用户对产品的了解和进一步使用。",
+        "项目成果": "IPO专项整体成果：\n\n- 累计曝光：54万+\n- 品牌搜索量增长：107%\n- 相关开户转化：80+\n\n以上为专项整体统计结果，内容传播与开户结果之间不直接等同于个人可归因贡献。",
+        "我的复盘": "内容增长不应该只关注阅读量和互动量。\n\n在产品导向的内容运营中，更需要明确内容解决什么用户问题、传递什么产品价值，以及如何观察用户后续的行为变化。\n\n富途的经历让我开始从用户需求和产品增长的角度重新理解内容。\n\n如果进一步完善这类运营项目，我会将指标分为内容触达、用户兴趣、产品认知和后续转化几个层次，分别分析不同内容类型的效果，而不是只以爆款数量评价内容质量。"
+      },
+      "v2En": {
+        "context": "Financial content supports a longer journey: discovering an IPO, learning the process and following the outcome. The strategy links each information need with relevant product content.",
+        "problem": "How can interest in financial topics lead to interest in the product?",
+        "role": "I contributed topic planning, product information integration, KOC collaboration, review, account content and campaign reporting.",
+        "process": "### User interests\nPlanned stock and IPO topics, tutorials and experience-based content.\n### Distribution\nSupported Xiaohongshu KOC briefs, review and account coordination.\n### Feedback\nMonitored social feedback and supported issue classification and response.\n### IPO campaigns\nOrganized information, templates, creator coordination and reporting.",
+        "results": "IPO campaign: 540K+ impressions, a 107% increase in brand search and 80+ associated account openings. These are campaign-wide observations; they do not establish individual or content-only attribution.",
+        "reflection": "Evaluate reach, interest, product understanding and subsequent conversion separately. High post engagement alone does not prove product growth.",
+        "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
+      }
     },
     {
       "id": "nova",
@@ -411,9 +443,9 @@ window.PORTFOLIO = {
       "category": "PRODUCT GTM PREPARATION",
       "icon": "◒",
       "tone": "brown",
-      "title": "Nova AI｜AI 创作场景验证与 GTM 传播",
-      "titleEn": "Nova AI | Creative workflows & GTM",
-      "summary": "用真实创作案例探索AI视频工具的市场价值，参与创作场景、商业内容与创作者合作，为市场启动准备素材。",
+      "title": "山海星辰｜AI短剧创作与品牌内容营销",
+      "titleEn": "Shanhai Xingchen | AI video creation & brand content",
+      "summary": "探索AI视频工作流如何服务创意生产、品牌传播与创作者参与。",
       "summaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
       "tags": [
         "AI创作场景",
@@ -596,8 +628,8 @@ window.PORTFOLIO = {
         "image": "assets/breakfast-topic-results.jpg",
         "note": "用户提供的话题页截图显示7005.3万次播放，截图时间未提供。该数值为整个话题的累计播放，包含官方、达人、商家及UGC内容，不等同于本人作品播放量、个人贡献增量或Nova AI产品增长；与项目复盘的统计周期不同，分开展示。"
       },
-      "cardFocus": "脚本策划 / AI生成剪辑 / 创作者协作",
-      "cardSummary": "参与早餐短剧脚本、AI素材生成剪辑及提示词模板，完成真实内容交付。",
+      "cardFocus": "AI创意生产 · 视频工作流与品牌传播",
+      "cardSummary": "探索AI视频工作流如何服务创意生产、品牌传播与创作者参与。",
       "cardSummaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
       "responsibilities": [
         "创意与脚本：理解活动目标，参与主题、情节与视觉表达策划。",
@@ -620,7 +652,23 @@ window.PORTFOLIO = {
           "Campaign film"
         ]
       ],
-      "processNote": "生成素材需要继续筛选、调整和剪辑，才能进入实际交付。现有资料没有统一工时基线，因此不量化效率提升；本人的职责为创作与传播协同，不是Nova AI产品功能设计负责人。"
+      "processNote": "生成素材需要继续筛选、调整和剪辑，才能进入实际交付。现有资料没有统一工时基线，因此不量化效率提升；本人的职责为创作与传播协同，不是Nova AI产品功能设计负责人。",
+      "v2Sections": {
+        "项目背景": "生成式AI正在改变品牌内容和视频创作的生产方式。\n\n在山海星辰，我参与AI短剧及品牌营销相关项目，通过脚本策划、AI视频生成、内容制作和达人协作，探索AI内容生产在真实商业项目中的应用。\n\n同时参与Nova AI相关的市场推广准备，关注AI创作能力如何通过具体案例被用户理解。",
+        "核心问题": "**如何将AI生成能力转化为符合品牌需求、可以实际传播的内容作品？**\n\nAI工具能够提升创意探索和素材生产效率，但商业内容依然需要解决品牌诉求、脚本逻辑、画面一致性、制作质量和传播适配等问题。",
+        "我的工作": "### 01 / 创意与脚本策划\n\n参与品牌短视频及AI短剧的创意讨论、脚本构思与内容方案整理。\n\n根据品牌需求、传播话题与内容形式，推动创意方向转化为可以执行的制作方案。\n\n### 02 / AI视频制作\n\n参与AI视频生成、素材筛选、画面调整及剪辑制作，结合内容需求进行效果检查和优化。\n\n在实际制作中关注画面质量、镜头衔接、风格一致性和成片表达。\n\n### 03 / 创作者合作与传播\n\n参与达人内容Brief、传播物料及项目执行，协助推进达人内容与活动话题协同。\n\n同时参与AI风格创作提示词模板整理，降低创作者理解和参与门槛。\n\n### 04 / AI产品应用场景探索\n\n参与Nova AI相关市场推广准备，通过AI内容案例与创作场景展示产品能力，为后续传播积累素材与应用思路。",
+        "项目成果": "相关品牌营销活动整体成果：\n\n- 话题曝光1588万+\n- UGC投稿445篇\n- 代表性达人内容获得百万级曝光\n\n以上为团队项目及传播活动成果，我主要参与AI内容策划、视频制作和创作者传播执行。",
+        "我的复盘": "AI降低了内容生产的部分技术门槛，但并没有取代创意判断、内容质量控制和项目协作。\n\n实际项目中，生成结果的稳定性、修改成本、品牌调性与成片交付标准，仍然需要人工持续判断和调整。\n\n这段经历让我更具体地理解了AI工具在商业内容生产中的优势与局限，也让我希望进一步探索更稳定、可复用的AI创作工作流。"
+      },
+      "v2En": {
+        "context": "Nova AI serves AI content creation. Before market entry, real production tasks help creators understand its use cases and build a practical basis for go-to-market materials.",
+        "problem": "How can AI generation become content that meets brand requirements and can be distributed?",
+        "role": "I contributed creative planning, scripts, AI generation and editing, creator briefs and campaign execution, alongside Nova AI marketing preparation.",
+        "process": "### Plan the story\nTurned creative discussion into scripts and production plans.\n### Produce AI video\nGenerated, selected and adjusted assets, then edited for continuity, style and delivery quality.\n### Support creator participation\nHelped prepare briefs, materials and prompt templates.\n### Explore product use cases\nUsed creative examples to support Nova AI marketing preparation.",
+        "results": "Related campaign results: 15.88M+ topic impressions and 445 UGC submissions; representative creator content reached million-level exposure.",
+        "reflection": "AI reduces some production barriers but still requires creative judgment, quality control and coordination. Stable outputs, revision costs and delivery standards remain practical constraints.",
+        "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
+      }
     },
     {
       "id": "baike",
@@ -628,9 +676,9 @@ window.PORTFOLIO = {
       "category": "CREATOR ECOSYSTEM",
       "icon": "◎",
       "tone": "blue",
-      "title": "百度｜创作者生态建设与增长",
-      "titleEn": "Baidu | Creator ecosystem operations",
-      "summary": "参与校园知识合伙人体系建设，通过创作者招募、内容指导、任务分发和激励反馈支持产品传播。",
+      "title": "百度｜300+校园创作者运营体系",
+      "titleEn": "Baidu | Campus creator operating mechanisms",
+      "summary": "从内容招募到持续供给：让创作者参与形成可执行、可管理的运营机制。",
       "summaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
       "tags": [
         "Creator Operations",
@@ -740,8 +788,8 @@ window.PORTFOLIO = {
           "body": "通过奖励机制和数据反馈，提高创作者持续参与的积极性。\r\n\r\n包括：\r\n\r\n- 根据内容阅读表现给予奖励。\r\n- 通过Top5榜单突出优秀创作者。\r\n- 结合优质案例指导内容生产。\r\n- 对低活跃创作者开展召回。"
         }
       ],
-      "cardFocus": "创作者招募 / 供给机制 / 激励召回",
-      "cardSummary": "从0到1参与创作者体系建设，通过手册、任务审核和激励支持持续内容供给。",
+      "cardFocus": "创作者分层 · 任务、反馈与激励机制",
+      "cardSummary": "从内容招募到持续供给：让创作者参与形成可执行、可管理的运营机制。",
       "cardSummaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
       "responsibilities": [
         "创作者池：参与招募文案、报名流程、筛选审核和社群组织。",
@@ -763,7 +811,23 @@ window.PORTFOLIO = {
           "~150",
           "Active creators"
         ]
-      ]
+      ],
+      "v2Sections": {
+        "项目背景": "校园创作者是百度百科内容生态的重要参与群体。\n\n与单次达人合作不同，持续性的创作者运营需要同时解决招募、内容质量、活跃参与、任务执行和激励结算等问题。\n\n项目通过校园创作者招募和运营管理，为平台建立相对稳定的内容供给渠道。",
+        "核心问题": "**如何让招募进来的创作者，持续产出符合平台要求的内容？**\n\n创作者运营并不是完成招募就结束。\n\n不同创作者的内容能力、参与意愿与熟悉程度存在差异。如果缺乏统一的任务说明、内容标准和反馈机制，就容易出现投稿效率低、内容质量不稳定以及任务回收困难等问题。",
+        "我的工作": "### 01 / 创作者招募与准入\n\n参与校园创作者招募、审核与社群管理，协助建立创作者池，并根据实际参与情况跟进内容任务。\n\n项目累计覆盖300名正式创作者，活跃创作者约150人。\n\n### 02 / 内容标准与运营指导\n\n参与创作者运营手册建设，围绕选题来源、标题封面、内容结构、平台规范及百科内容植入提供指导。\n\n通过更明确的任务要求和内容示例，帮助创作者理解平台需要什么样的内容。\n\n### 03 / 内容任务与激励机制\n\n参与热点选题、任务发布、内容审核、稿件回收及结算流程。\n\n结合阶梯激励、优质内容展示和创作者反馈，支持持续投稿与内容质量管理。\n\n### 04 / 数据回收与运营复盘\n\n参与内容数据整理与传播效果回收，关注创作者参与情况、内容产量及稿件质量。\n\n通过日常反馈发现任务执行中的问题，并对内容指导和运营流程进行调整。",
+        "项目成果": "- 累计正式创作者：300人\n- 累计回收内容：5572篇\n- 阅读量超过1万的内容：1352篇\n- Q3累计阅读量：1.37亿+\n- Q3累计点赞：108.9万+\n\n以上为创作者运营项目的整体累计成果，个人主要参与创作者招募、运营机制执行、内容指导和数据回收等工作。",
+        "我的复盘": "创作者增长与内容供给增长，并不是同一个指标。\n\n招募数量只能反映创作者池的规模，更需要关注的是创作者能否完成首次投稿、是否持续参与，以及最终产出的内容是否符合平台目标。\n\n这个项目让我理解，创作者运营的核心并非不断发布任务，而是让任务、指导、反馈与激励形成持续运转的机制。\n\n未来如果继续优化，我会重点观察新创作者首次投稿完成率、不同创作者分层的投稿表现、任务完成率及持续参与情况，让运营动作能够更直接地对应内容供给目标。"
+      },
+      "v2En": {
+        "context": "Creator operations goes beyond community management. Recruitment, clear guidance, tasks and feedback need to work together to sustain content supply.",
+        "problem": "How can recruited creators keep producing content that meets platform requirements?",
+        "role": "I supported recruitment, community coordination, content guidance, task execution, review, reporting and settlements.",
+        "process": "### Recruit and onboard\nHelped build the creator pool and follow up participation.\n### Define content standards\nContributed guidance on topics, titles, covers, structure and platform requirements.\n### Operate tasks and incentives\nSupported task distribution, review, content collection and settlements.\n### Review participation\nCollected performance data and fed execution issues back into guidance.",
+        "results": "300 formal creators; 5,572 collected posts; 1,352 posts above 10K reads; Q3 totals of 137M+ reads and 1.089M+ likes.",
+        "reflection": "Recruitment and content supply measure different things. I would track first-post completion, participation by creator segment, task completion and continued contribution.",
+        "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
+      }
     },
     {
       "id": "heritage",
@@ -771,9 +835,9 @@ window.PORTFOLIO = {
       "category": "AI AGENT GTM",
       "icon": "✿",
       "tone": "pink",
-      "title": "百度 AI 非遗馆｜AI Agent 场景传播",
-      "titleEn": "Baidu AI Heritage | AI agent scenarios",
-      "summary": "通过簪花换装、京剧上妆等体验表达产品价值，协同官方渠道、搜索资源与KOC推进AI Agent传播。",
+      "title": "百度｜AI非遗馆主题传播",
+      "titleEn": "Baidu | AI Heritage Museum campaign",
+      "summary": "让AI Agent的应用能力，通过具体的文化体验被用户感知。",
       "summaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
       "tags": [
         "AI Agent",
@@ -867,8 +931,8 @@ window.PORTFOLIO = {
           "body": "**内容表达**\r\n\r\n参与微信公众号、官方社交媒体和内部传播文案撰写，将产品体验转化为面向普通用户的内容语言。\r\n\r\n**资源协同**\r\n\r\n参与百度系资源位、官方账号、社媒资源和内部渠道的申请与协调。\r\n\r\n**创作者传播**\r\n\r\n调用校园知识合伙人资源，参与专项Brief、内容审核和传播反馈。\r\n\r\n**执行管理**\r\n\r\n跟进内容排期、传播物料、渠道上线及项目进度。"
         }
       ],
-      "cardFocus": "产品价值表达 / 体验场景 / 多渠道传播",
-      "cardSummary": "以簪花换装和京剧上妆解释AI Agent体验，协同内容物料与传播渠道。",
+      "cardFocus": "AI应用场景 · 渠道与创作者协作",
+      "cardSummary": "让AI Agent的应用能力，通过具体的文化体验被用户感知。",
       "cardSummaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
       "responsibilities": [
         "能力场景化：用簪花换装、戏曲妆容等视觉结果说明体验价值。",
@@ -890,7 +954,22 @@ window.PORTFOLIO = {
           "Opera makeup",
           "Interactive expression"
         ]
-      ]
+      ],
+      "v2Sections": {
+        "项目背景": "AI产品的推广不仅需要介绍功能，还需要让用户理解它能带来怎样的实际体验。\n\n百度AI非遗馆结合传统文化与AI生成能力，通过簪花换装、京剧上妆等互动场景，将AI Agent的产品能力转化为更具参与感的文化体验。\n\n项目围绕主题活动开展传播，通过搜索、官方内容渠道、创作者生态及相关传播资源触达用户。",
+        "核心问题": "**如何让用户通过有趣的体验，理解AI Agent的实际价值？**\n\n对于普通用户而言，抽象的AI技术描述不一定能够直接激发兴趣。\n\n将AI能力放进熟悉的文化内容和互动场景，可以降低理解门槛，让用户更直观地感知产品能够完成什么任务。",
+        "我的工作": "### 01 / 主题传播策划\n\n参与AI非遗馆活动的传播规划，围绕预热、爆发和收尾阶段整理内容与渠道执行需求。\n\n### 02 / 渠道及内容协作\n\n参与搜索主会场、百科官方内容渠道及其他传播资源的联动执行，支持主题内容触达。\n\n### 03 / 创作者内容供给\n\n结合已有校园创作者资源，参与专项内容任务组织、创作者沟通及内容回收。\n\n### 04 / 传播执行与效果回收\n\n参与传播素材、内容协作与项目进度跟进，支持活动上线及传播反馈整理。",
+        "我的复盘": "AI应用传播的关键，不只是解释产品使用了什么技术，而是找到用户能够直观理解、愿意主动体验的使用场景。\n\n这类项目让我认识到，产品GTM可以通过内容策划、体验设计和渠道传播相互配合，让技术能力更自然地进入用户认知。\n\n未来我希望进一步参与从产品使用到用户激活的完整链路，而不仅停留在前端传播。"
+      },
+      "v2En": {
+        "context": "The campaign translates intangible cultural heritage and AI agents into experiences people can understand, try and share.",
+        "problem": "How can an engaging cultural experience communicate the value of an AI Agent?",
+        "role": "I supported campaign planning, channel coordination, creator tasks, content collection and execution follow-up.",
+        "process": "### Campaign planning\nOrganized content and channel requirements across campaign stages.\n### Channel coordination\nSupported search, official content and other distribution resources.\n### Creator content\nHelped organize tasks and collect campus creator contributions.\n### Execution\nFollowed up materials, collaboration and campaign feedback.",
+        "results": "This case focuses on scenario communication and execution. Existing project materials appear in Evidence; no unverified outcome figures have been added.",
+        "reflection": "Product communication should start with a recognizable use case. I want to develop further across the path from initial understanding to activation.",
+        "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
+      }
     }
   ],
   "experience": [
@@ -929,11 +1008,11 @@ window.PORTFOLIO = {
   ],
   "positioning": {
     "eyebrow": "AI PRODUCT OPERATIONS · PRODUCT GROWTH",
-    "title": "让产品价值被看见，让用户增长真实发生。",
-    "titleEn": "Make product value clear. Make growth happen.",
+    "title": "让AI能力成为用户真正愿意使用的产品体验。",
+    "titleEn": "Turn AI capabilities into experiences people want to use.",
     "subtitle": "产品策划 / GTM / 内容增长 / 创作者生态",
-    "intro": "关注 AI 技术在真实用户场景中的应用，拥有 AI 玩法策划、产品上线推广、用户增长及创作者运营经验，擅长将产品能力转化为用户易理解、愿意参与的具体体验。",
-    "introEn": "Connecting AI capabilities with real user needs through scenario planning, product launches, growth operations and creator ecosystems.",
+    "intro": "你好，我是Janice，北京师范大学广播电视新媒体专业硕士。曾在小米、百度、富途及山海星辰参与AI产品策划、模型效果评测、创作者生态、内容增长与产品营销项目。",
+    "introEn": "Hi, I’m Janice, a master’s graduate in broadcasting and new media from Beijing Normal University. My experience spans AI scenario planning, model evaluation, creator operations, content growth and product marketing at Xiaomi, Baidu, Futu and Shanhai Xingchen.",
     "question": "如何让用户理解产品、愿意使用产品，并通过运营推动持续增长。",
     "expertise": [
       [
@@ -953,8 +1032,8 @@ window.PORTFOLIO = {
         "创作者生态与运营机制"
       ]
     ],
-    "identity": "AI 产品运营｜北师大硕士｜小米 · 百度 · 富途",
-    "identityEn": "AI Product Operations | BNU Master’s | Xiaomi · Baidu · moomoo",
+    "identity": "AI产品运营｜AI应用体验与内容增长",
+    "identityEn": "AI Product Operations | AI Experiences & Content-led Growth",
     "connection": "连接 AI 技术能力、用户需求与产品增长。"
   },
   "about": {
@@ -1125,5 +1204,15 @@ window.PORTFOLIO = {
     "Nova简历当日曝光1588万与历史材料不同曝光数的统计差异；7005.3万为话题截图累计播放，截图日期待补。",
     "两孵化账号的真实截图、代表作品链接，均互动174/412的统计口径，以及Good/Bad原始对照图片。",
     "账号名称按本轮提供顺序与原主页对应，平台账号号及主页的最终匹配待再次核对。"
-  ]
+  ],
+  "v2": {
+    "capabilities": "### 01 · AI Product & Experience\n\n**AI产品策划与体验评估**\n\n从用户场景出发，探索AI功能的应用方式。\n\n参与AI创新玩法设计、模型测试集构建、生成结果验收与异常案例反馈，关注AI能力能否真正转化为稳定、易用、有吸引力的产品体验。\n\n代表项目：小米超级小爱AI创新技能。\n\n### 02 · Creator & Community\n\n**创作者生态与运营机制**\n\n通过招募、内容指导、任务激励和数据复盘，推动创作者持续参与和内容供给。\n\n参与搭建300+校园创作者运营体系，积累了创作者分层、内容质量管理、社群协作及激励机制实践。\n\n代表项目：百度百科校园创作者生态。\n\n### 03 · Content-led Growth\n\n**产品内容化与增长传播**\n\n从用户兴趣和产品价值出发，将功能、场景和内容连接起来。\n\n参与金融科技产品内容增长、AI产品上市传播与品牌整合营销，熟悉用户洞察、内容策略、跨渠道执行及效果复盘。\n\n代表项目：富途内容增长、小米AI产品传播、百度AI非遗馆。",
+    "about": "## 从内容表达出发，走向产品与用户。\n\n我叫邱雅婧，也可以叫我Janice。\n\n本科就读于江汉大学播音专业，研究生就读于北京师范大学广播电视新媒体专业。\n\n过去的学习和项目经历，让我逐渐从关注“如何把内容做好”，转向思考“如何让产品更好地被用户理解、使用和认可”。\n\n我喜欢研究新的技术与产品，也享受将一个模糊的想法逐步拆解、验证，最终做成真实作品的过程。\n\n对我而言，内容、技术与产品并不是完全独立的领域。内容帮助用户理解产品，技术拓展产品能力，而运营让产品在真实场景中持续创造价值。\n\n\n\n## 01 / 从内容创作，到理解用户\n\n**好的内容不只是被看见，还需要回应用户真正的需求。**\n\n广播电视专业的学习，让我建立了内容表达、视觉叙事、选题策划和视频制作的基础。\n\n但在富途参与金融科技内容运营后，我开始从更具体的业务目标理解内容。\n\n用户关注一只股票，可能是想获得最新信息，也可能是希望理解一次投资机会。内容不只是解释信息，也可以帮助用户认识产品功能，并进一步探索实际使用场景。\n\n在百度的创作者运营项目中，我又开始从单篇内容走向内容生产机制。\n\n与其只关注一篇内容能否成为爆款，我更需要思考：如何招募合适的创作者、降低参与门槛、制定内容标准，以及通过持续反馈让整个内容生态运转起来。\n\n这些经历让我逐渐认识到，内容运营的价值不仅在于表达，更在于理解用户行为，并设计能够持续产生结果的运营机制。\n\n## 02 / 从用户需求，到AI产品体验\n\n**让技术真正产生价值，需要找到用户愿意使用它的理由。**\n\n在小米参与超级小爱AI创新技能项目，是我职业方向发生变化的重要经历。\n\nAI生图模型能够实现很多效果，但用户并不一定关心模型使用了什么技术。他们更在意的是：这个功能好不好玩、能不能快速得到满意的结果、是否愿意分享给朋友。\n\n因此，我参与了从节日场景洞察、创意玩法策划，到模型生成效果测试、异常案例反馈和上线传播的工作。\n\n我开始更具体地理解AI产品的另一面：\n\n创意需要考虑模型能力边界，体验需要通过真实样本验证，而产品上线之后，还需要结合使用数据与用户反馈持续优化。\n\n相比单纯制作内容，我发现自己更喜欢将AI能力转化为实际产品体验的过程。\n\n这也成为我希望长期发展AI产品运营与AI应用运营方向的原因。\n\n## 03 / 从使用工具，到主动创造\n\n**比起只了解一个工具的功能，我更喜欢亲手试一试。**\n\n在山海星辰，我参与过AI短剧的脚本策划、视频生成与剪辑，体验了AI工具如何改变传统内容生产流程。\n\n在个人实践中，我也尝试借助AI与Vibe Coding搭建自己的作品集网站，将项目资料、视觉作品与互动展示组织为一个可以持续迭代的线上空间。\n\n这些尝试让我对AI工具的理解不再停留于功能介绍，而是进一步关注实际工作流、产出质量、使用限制及问题解决过程。\n\n我希望未来能够继续将这些实践延伸到AI产品体验、运营效率和业务场景中。\n\n\n\n## How I Work\n\n### 从目标出发，而不是从执行动作出发\n\n面对新项目，我习惯先确认目标用户、业务问题和衡量结果的方式，再将任务拆解为可以执行与验证的步骤。\n\n### 既重视创意，也关注落地\n\n我喜欢有想象力的产品玩法和内容方案，也愿意处理测试、协调、审核、数据整理等具体工作，让想法真正完成交付。\n\n### 从反馈中寻找下一次优化机会\n\n无论是AI生成结果、创作者投稿还是社媒传播，我都希望知道哪些方案有效、哪些环节存在问题，以及下次可以如何改进。\n\n\n\n## What I'm Exploring\n\n目前，我重点关注三个方向：\n\n**AI Product Experience**\n\nAI产品场景、模型效果评估、用户反馈与体验优化。\n\n**Product & User Growth**\n\n用户激活、留存、内容驱动获客和数据分析。\n\n**AI-native Workflows**\n\n利用AI工具改进内容生产、信息整理及运营工作流程。\n\n我希望成为连接技术、产品与用户的人，让新的AI能力能够真正进入日常生活与实际业务。",
+    "labIntro": "这里记录一些不完全属于商业项目的创作与探索。\n\n它们可能是一条视频、一个账号、一次AI实验、一组照片，也可能是一个通过代码和AI工具搭建的小网站。\n\n我喜欢从真实问题或一个有趣的念头出发，尝试不同的表达和实现方式，并在实践中学习新的工具与方法。",
+    "siteExperiment": "从内容结构、案例整理到交互展示，借助AI与Vibe Coding持续搭建和迭代这个网站。\n\n这是一个长期更新的个人实验：我尝试将项目经历转化为可浏览、可探索的数字作品，同时学习需求拆解、页面逻辑、交互设计与部署迭代。\n\n**我的角色：** 内容策划、信息架构、交互需求设计、AI辅助开发与迭代测试。",
+    "capabilitiesEn": "### 01 · AI Product & Experience\n**AI scenario planning and experience evaluation**\nI help translate user scenarios into AI experiences through creative planning, test-set preparation, output checks and issue feedback. Representative work: Xiaomi Super XiaoAI.\n### 02 · Creator & Community\n**Creator ecosystems and operating mechanisms**\nI support recruitment, content guidance, tasks, incentives and reporting for a campus creator program with 300 formal creators. Representative work: Baidu Baike.\n### 03 · Content-led Growth\n**Connecting product value with user interests**\nI contribute to product education, KOC distribution and campaign execution across fintech and AI applications. Representative work: Futu, Xiaomi and Baidu AI Heritage Museum.",
+    "aboutEn": "## From content expression to products and users.\nI’m Yajing Qiu, also known as Janice. I studied broadcasting and presenting at Jianghan University, then broadcasting and new media at Beijing Normal University.\nMy experience has shifted my attention from making content to helping people understand, use and value products. Content makes products understandable; technology expands their capabilities; operations helps them deliver value in real situations.\n## 01 / From creating content to understanding users\n**Good content responds to real needs.**\nMy studies gave me a foundation in storytelling, topic planning and video production. At Futu, I began connecting financial topics with users’ information needs and product use cases.\nAt Baidu, I moved from individual posts to the mechanisms behind content supply: recruiting creators, setting standards, reducing participation barriers and maintaining feedback. I learned to consider user behavior and repeatable operating processes alongside creative quality.\n## 02 / From user needs to AI product experience\n**Technology needs a reason for people to use it.**\nWorking on Xiaomi Super XiaoAI experiences helped shape my direction. Users care whether a feature is enjoyable, whether it produces a satisfying result and whether they want to share it.\nI contributed to seasonal scenarios, creative planning, output testing, issue feedback and launch communications. Ideas must respect model limitations; experiences need testing with varied inputs; launches need usage feedback. This is why I want to develop in AI product and application operations.\n## 03 / From using tools to creating\n**I prefer to learn by making something.**\nAt Shanhai Xingchen, I contributed to scripts, AI video generation and editing. Building this portfolio with AI-assisted development has also helped me practice content architecture, interaction requirements and deployment iteration.\nThese projects make me consider workflows, output quality, limitations and practical problem solving alongside tool features.\n## How I Work\n### Start with the goal\nClarify the user, business problem and measurement approach before breaking work into actionable steps.\n### Combine creativity with delivery\nI enjoy creative ideas and also take on testing, coordination, review and reporting to help deliver them.\n### Learn from feedback\nI look for what worked, where the process failed and what could improve next time.\n## What I’m Exploring\n### AI Product Experience\nScenarios, model evaluation, user feedback and experience improvement.\n### Product & User Growth\nActivation, retention, content-led acquisition and analysis.\n### AI-native Workflows\nAI-assisted content production, information organization and operations.\nI want to connect technology, products and users through practical work.",
+    "labIntroEn": "This page records hands-on experiments alongside selected project work: videos, accounts, AI experiments, visual assets and this portfolio. I start with a real problem or an interesting idea, try different ways to express it, and learn through making.",
+    "siteExperimentEn": "From content structure and case organization to interaction requirements, I use AI-assisted development to build and improve this portfolio. It is an ongoing experiment in turning project experience into a browsable digital space.\n\n**My role:** content planning, information architecture, interaction requirements, AI-assisted development and iteration testing."
+  }
 };
