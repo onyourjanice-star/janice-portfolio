@@ -9,9 +9,9 @@ window.PORTFOLIO = {
       "category": "AI PRODUCT OPERATIONS",
       "icon": "✳",
       "tone": "sage",
-      "title": "小米｜AI创新技能策划与模型效果评测",
+      "title": "小米｜小爱AI创新玩法",
       "titleEn": "Xiaomi | AI scenario planning & model evaluation",
-      "summary": "从节日创意到产品体验：让AI生图能力成为用户愿意参与和分享的玩法。",
+      "summary": "把AI生图，变成用户想参与的节日体验",
       "summaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
       "tags": [
         "产品策划",
@@ -122,14 +122,15 @@ window.PORTFOLIO = {
           "body": "#### 07 / PRODUCT EXPERIENCE：如何让生成结果更加稳定？\r\n\r\n六一童年手办玩法围绕儿童节与童年回忆，通过AI将用户上传的人物照片转化为3D摆件图片。\r\n\r\n相较于五一旅行拍立得，六一玩法在视觉风格、人物比例、多人完整度等方面提出了更多生成质量要求。\r\n\r\n项目围绕盲盒、旋转木马、水晶球等视觉方向开展方案探索和效果评估。\r\n\r\n#### 08 / MODEL EVALUATION：建立结构化的效果评估方式\r\n\r\n我参与AI生成测试集建设及结果评估。\r\n\r\n测试场景覆盖单人、双人、多人和宠物等输入类型，主要从以下维度判断生成结果：\r\n\r\n**成图率**\r\n\r\n是否能够成功生成目标图片。\r\n\r\n**主体识别**\r\n\r\n是否准确保留输入照片中的人物及其他主体。\r\n\r\n**人物比例**\r\n\r\n头身比例、构图与视觉效果是否符合预期。\r\n\r\n**风格一致性**\r\n\r\n不同输入素材能否保持目标视觉风格。\r\n\r\n**画面畸变**\r\n\r\n是否出现人物结构异常、肢体畸变等情况。\r\n\r\n**多人完整性**\r\n\r\n是否出现漏人或人物信息丢失。\r\n\r\n#### 09 / KEY FINDINGS：从测试结果识别体验问题\r\n\r\n在实际评估中，发现不同风格存在头部比例偏大、多人生成稳定性不足及宠物结构异常等问题。\r\n\r\n例如，盲盒风格单人场景的比例合适率，小爱测试结果为50%，同期GPT对照结果为57.5%。\r\n\r\n通过将生成结果按风格、人物数量和问题类型拆分，能够更具体地描述模型表现，而不是仅根据少量优秀样张进行评价。\r\n\r\n#### 10 / PROJECT RESULTS\r\n\r\n**55.2万** 活动页面UV\r\n\r\n**12.6万** 图片生成量\r\n\r\n**4.1万** 品牌转化UV\r\n\r\n**29%** 小米用户中拉新及召回占比\r\n\r\n#### 11 / MY CONTRIBUTION\r\n\r\n**产品场景策划**\r\n\r\n参与用户场景洞察、玩法创意和方案评审。\r\n\r\n**模型效果评估**\r\n\r\n参与测试集构建、Good/Bad案例整理及生成问题反馈。\r\n\r\n**上线与传播协同**\r\n\r\n协助官方内容、KOC Brief、内容审核与社媒传播。\r\n\r\n**数据复盘**\r\n\r\n参与整理用户参与及项目表现，观察不同玩法的效果。"
         }
       ],
-      "cardFocus": "AI产品策划 · 模型效果评测",
-      "cardSummary": "从节日创意到产品体验：让AI生图能力成为用户愿意参与和分享的玩法。",
+      "cardFocus": "AI玩法策划 · 模型效果评测 · 上线与传播协同",
+      "cardSummary": "把旅行纪念、童年回忆与毕业留念转化为AI生图玩法，参与从创意策划、效果评测到上线推广的过程，让用户在熟悉的生活场景中体验小爱的AI能力。",
       "cardSummaryEn": "Translating AI capabilities into experiences people want to try, with scenario planning, evaluation and launch support.",
       "responsibilities": [
-        "AI内容场景及玩法策划",
-        "模型效果评测与问题反馈",
-        "新功能上线传播协同",
-        "项目数据回收与复盘"
+        "玩法策划",
+        "测试集构建",
+        "模型效果评测",
+        "上线体验检查",
+        "GTM传播支持"
       ],
       "judgment": "五一旅行照与晒图需求集中出现。方案调研中的“求图、求教程”评论说明用户已对3D拍立得感兴趣，但工具、账号和操作方式仍是门槛。机会是把复杂生成过程收敛为一条熟悉的体验路径。",
       "goal": "围绕节日照片创作需求，把小爱生图能力转化为用户可理解、易尝试的轻量玩法。",
@@ -173,18 +174,17 @@ window.PORTFOLIO = {
       ],
       "modelNote": "模型反馈与上线验收为本人参与工作；现有材料未提供逐项修复结果或统一提升率，不新增优化成效。原始Good/Bad对照图片待补充。",
       "v2Sections": {
-        "项目背景": "超级小爱持续探索生成式AI在消费级产品中的应用。\n\n节日及热点场景是让用户感知AI能力的一个重要入口。与单纯展示模型功能不同，场景化玩法需要让用户快速理解如何参与，并以较低的操作成本获得有趣、符合预期的生成结果。\n\n项目围绕五一、六一、毕业季等时间节点，设计AI创意互动体验，并通过产品与传播渠道触达用户。",
-        "核心问题": "**如何让AI生图技术变成易理解、可参与、可传播的产品功能？**\n\n项目需要同时解决三个问题：\n\n1. 选择用户熟悉且有分享意愿的主题和视觉形式。\n2. 在创意效果与模型能力之间取得平衡，减少生成异常。\n3. 将功能玩法转化为清晰的使用引导和传播内容。",
-        "我的工作": "### 01 / 玩法策划与用户场景拆解\n\n参与五一3D旅行拍立得、六一童年手办、毕业季拍立得等AI创新玩法的策划。\n\n结合节日情绪、用户使用场景与社交传播特点，整理创意方向和玩法需求，参与方案讨论与评审。\n\n### 02 / 模型效果评测\n\n参与AI生成效果测试集整理、模型生成结果检查及问题标注。\n\n围绕单人、多人、宠物等不同输入场景，关注生成成功情况、主体识别、人物比例、风格一致性、人物畸变和漏人等问题。\n\n结合Good Case与Bad Case，反馈模型效果异常，并与相关团队协作推进后续测试和优化。\n\n### 03 / 上线体验与传播协作\n\n参与H5体验检查、传播物料及达人Brief相关工作，支持官号、社区、达人等多渠道推广。\n\n在传播环节重点关注：如何降低用户理解成本，以及怎样通过案例展示AI功能的实际效果。",
-        "项目成果": "**五一AI玩法**\n\n- 累计UV：59.7万\n- 生成图片：43.9万张\n\n**六一AI玩法**\n\n- 累计UV：55.2万\n- 生成图片：12.6万张\n- 品牌转化UV：4.1万\n\n以上为项目整体效果数据，我主要参与玩法策划、模型效果评测与上线传播相关环节。",
-        "我的复盘": "这个项目让我认识到，AI功能的创意设计必须考虑模型真实能力。\n\n一个视觉效果很吸引人的创意，不一定能够在复杂输入条件下稳定生成。因此，在玩法策划阶段就需要考虑输入类型、风格范围、人物数量与生成质量。\n\n如果重新梳理这一项目，我会更加关注不同场景下的生成成功率、异常类型分布，以及用户从进入页面到完成生成的体验路径，用更结构化的指标支持后续优化。\n\n**我从中积累的不只是AI内容策划经验，更是将用户场景、模型能力与产品体验连接起来的方法。**"
+        "项目背景": "AI生图能力需要进入具体的生活场景，才能成为用户愿意尝试的功能。\n\n围绕五一出游、六一童年回忆和毕业留念等节点，项目将AI能力包装为主题玩法，帮助用户通过上传照片、生成和分享作品，感知小爱的AI能力。",
+        "我的工作": "### 用户场景与玩法策划\n旅行中的纪念感、童年形象的想象、毕业时刻的仪式感，为生图功能提供了明确的参与理由。\n\n我参与玩法创意与方案讨论，将主题进一步拆解为参考风格、输入要求、输出效果和参与方式，支持团队讨论与制作。\n\n参与玩法包括五一「3D旅行拍立得」、六一「童年手办」、毕业季拍立得及SU7节日互动。\n\n### 效果评测与问题反馈\n创意能否落地，还取决于不同照片能否得到符合预期的结果。\n\n我参与构建覆盖单人、多人、宠物等输入的测试集，结合GPT-4o生成的参考效果，与模型团队协同跑图、整理Good / Bad Case。\n\n评测关注成图率、主体识别、人物比例、风格一致性，以及畸变、漏人等问题。将问题按类型整理后反馈，支持效果调整与验收。\n\n### 上线体验与传播协同\n上线前参与H5体验检查与内测反馈整理，关注输入要求是否清楚、生成结果是否符合预期，以及体验过程中是否存在理解障碍。\n\n传播阶段参与官号内容、海报及达人Brief等材料，协同米系矩阵、社区与KOC，说明玩法效果和参与方式，并跟进内容验收与数据回收。",
+        "项目成果": "**五一玩法**\n\n访问UV 59.7万，生成图片43.9万张。\n\n**六一玩法**\n\n访问UV 55.2万，生成图片12.6万张；品牌转化UV 4.1万，拉新召回用户占比29%。\n\n以上为团队协作下的项目整体数据。",
+        "我的复盘": "这个项目让我认识到，AI玩法运营需要同时处理三个问题：用户为什么愿意试、生成结果是否符合预期，以及参与方式能否被清楚传达。\n\n策划、评测与传播需要围绕同一种体验保持一致。"
       },
       "v2En": {
         "context": "Image generation becomes useful when it connects with something people already want to do. These experiences turn travel photos and childhood memories into accessible, shareable AI creations.",
         "problem": "How can AI image generation become an understandable, accessible and shareable experience?",
         "role": "I contributed to seasonal ideas, test-set preparation, output checks, issue feedback and launch communications.",
         "process": "### Scenario planning\nContributed to May Day travel polaroids, Children’s Day figurines and graduation polaroids.\n### Model evaluation\nChecked single-person, group and pet inputs for subject recognition, proportions, style consistency, missing people and distortions; organized good and bad cases for follow-up.\n### Launch support\nSupported H5 experience checks, creator briefs and channel materials.",
-        "results": "May Day: 597K UV and 439K generated images. Children’s Day: 552K UV, 126K generated images and 41K brand conversion UV.",
+        "results": "May Day: 597K UV and 439K generated images. Children’s Day: 552K UV, 126K generated images and 41K brand conversion UV. New and recalled users represented 29% of Xiaomi users in the reported scope, not all visitors. These are team project results.",
         "reflection": "An appealing concept may not generate reliably across complex inputs. In future work, I would examine success rates by scenario, error distributions and the path from entry to completed generation.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
       },
@@ -209,7 +209,23 @@ window.PORTFOLIO = {
         "assets/xiaomi-evidence-2.png",
         "六一活动漏斗：552,333首页UV → 103,811参与点击UV → 58,393生成中页面UV → 52,010完成页面UV → 20,286保存点击UV；总转化率3.67%。",
         "Children’s Day funnel: 552,333 homepage UV → 103,811 participation-click UV → 58,393 generating-page UV → 52,010 completed-page UV → 20,286 save-click UV; total conversion 3.67%."
-      ]
+      ],
+      "listingExpansion": "参与五一「3D旅行拍立得」、六一「童年手办」等玩法，围绕用户输入、生成效果和体验流程，协同完成方案讨论、测试集构建、Good / Bad Case整理与问题反馈。\n\n上线阶段参与H5体验检查与传播支持，将玩法规则、效果示例和参与方式转化为官号内容与达人Brief。\n\n以上数据为项目整体表现。",
+      "listingMetrics": [
+        [
+          "59.7万",
+          "五一玩法访问UV",
+          "597K",
+          "May Day UV"
+        ],
+        [
+          "55.2万",
+          "六一玩法访问UV",
+          "552K",
+          "Children’s Day UV"
+        ]
+      ],
+      "listingExpansionEn": "### Scenario planning\nContributed to May Day travel polaroids, Children’s Day figurines and graduation polaroids.\n### Model evaluation\nChecked single-person, group and pet inputs for subject recognition, proportions, style consistency, missing people and distortions; organized good and bad cases for follow-up.\n### Launch support\nSupported H5 experience checks, creator briefs and channel materials.\n\nCampaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
     },
     {
       "id": "futu",
@@ -217,9 +233,9 @@ window.PORTFOLIO = {
       "category": "CONTENT GROWTH",
       "icon": "↗",
       "tone": "orange",
-      "title": "富途｜以内容驱动金融科技产品认知与增长",
+      "title": "富途｜产品内容与IPO节点运营",
       "titleEn": "Futu | Content-led product education & growth",
-      "summary": "将用户关心的金融话题，转化为理解和使用产品的入口。",
+      "summary": "从投资话题切入，让产品功能进入用户决策场景",
       "summaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
       "tags": [
         "Product Education",
@@ -415,14 +431,15 @@ window.PORTFOLIO = {
           ]
         ]
       },
-      "cardFocus": "产品内容化 · 用户兴趣与增长链路",
-      "cardSummary": "将用户关心的金融话题，转化为理解和使用产品的入口。",
+      "cardFocus": "产品功能内容化 · KOC协作 · 搜索与转化支持",
+      "cardSummary": "从用户关心的个股、IPO和投资场景切入，把富途牛牛与moomoo的产品功能放进具体内容中，支持产品理解、品牌搜索与开户转化。",
       "cardSummaryEn": "Using relevant financial content to connect product value with stock, IPO and investment needs.",
       "responsibilities": [
-        "内容选题与产品信息植入",
-        "KOC筛选、Brief下发与内容审核",
-        "IPO专题节奏调整与数据复盘",
-        "AI财经账号孵化与品牌反馈"
+        "内容策划与撰写",
+        "KOC与Agency协作",
+        "内容审核与分发",
+        "口碑维护",
+        "数据回收"
       ],
       "judgment": "从个股热点、IPO节点和金融知识切入，以用户信息需求为起点解释产品价值。曝光、搜索、开户和活跃分别代表不同阶段的用户行为，需要结合产品行为理解增长。",
       "goal": "围绕IPO资讯、申购与交易节点，支持moomoo产品认知、搜索关注及使用意向。",
@@ -443,11 +460,10 @@ window.PORTFOLIO = {
       "phaseNote": "两轮复盘将上市前内容占比从约15%调整至约40%，提前覆盖新股资讯和申购需求；这属于内容节奏迭代，不是A/B实验，也不能单独解释全部曝光、搜索或开户增长。",
       "conversionNote": "简历另记录项目引导开户80+；原始归因规则、去重方式与统计区间待核实，暂不并入首页核心成果。",
       "v2Sections": {
-        "项目背景": "金融科技产品的功能往往具有一定的理解门槛。相比直接介绍功能，用户通常更关注个股信息、IPO动态、投资机会和实际使用体验。\n\n在富途的内容运营项目中，我们尝试围绕这些用户兴趣场景，将富途牛牛及moomoo产品功能融入社媒内容，支持产品认知、品牌口碑和用户增长。",
-        "核心问题": "**如何让用户从关注财经内容，进一步产生对产品的兴趣？**\n\n单纯追求内容曝光，并不能直接证明产品获得了增长。\n\n内容需要同时满足用户的信息需求与产品传播目标，让产品功能出现在合理的使用场景中，而不是生硬植入广告。",
-        "我的工作": "### 01 / 用户兴趣与内容策略\n\n围绕热门个股、IPO节点、申购流程及投资者常见问题，参与内容选题与策略设计。\n\n通过资讯解读、功能教程、申购经验及收益晒单等形式，将产品功能和用户需求连接起来。\n\n### 02 / KOC与账号矩阵运营\n\n参与小红书KOC内容分发、稿件审核及账号矩阵协作，结合不同账号的内容定位调整选题和表达方式。\n\n同时参与素人账号内容生产与运营，积累了账号冷启动、内容策划及传播效果分析经验。\n\n### 03 / 用户反馈与品牌口碑\n\n参与社媒舆情监测、问题分类及内容反馈处理，协同推动负面信息处置与正向内容建设。\n\n在这一过程中，我更加关注用户对产品的真实感受，以及社媒反馈如何反映产品使用问题。\n\n### 04 / IPO专项传播\n\n围绕IPO营销节点，参与信息梳理、内容模板策划、KOC协作和传播数据回收。\n\n通过将资讯内容与产品功能结合，支持用户对产品的了解和进一步使用。",
-        "项目成果": "IPO专项整体成果：\n\n- 累计曝光：54万+\n- 品牌搜索量增长：107%\n- 相关开户转化：80+\n\n以上为专项整体统计结果，内容传播与开户结果之间不直接等同于个人可归因贡献。",
-        "我的复盘": "内容增长不应该只关注阅读量和互动量。\n\n在产品导向的内容运营中，更需要明确内容解决什么用户问题、传递什么产品价值，以及如何观察用户后续的行为变化。\n\n富途的经历让我开始从用户需求和产品增长的角度重新理解内容。\n\n如果进一步完善这类运营项目，我会将指标分为内容触达、用户兴趣、产品认知和后续转化几个层次，分别分析不同内容类型的效果，而不是只以爆款数量评价内容质量。"
+        "项目背景": "用户通常先关注个股机会、IPO资讯与投资经验，再进一步了解相关工具。\n\n项目以这些需求为内容入口，将富途牛牛与moomoo的功能融入具体场景，支持用户理解产品、搜索品牌并进一步采取行动。",
+        "我的工作": "### 把产品功能放进具体问题\n围绕用户关注的资讯获取、IPO申购、中签与收益分享等话题组织内容，让功能说明与实际需求保持关联。\n\n我参与内容策划、稿件撰写与审核，将产品信息转化为更贴近社交平台阅读习惯的表达。\n\n### 承接IPO节点的内容需求\n围绕IPO不同阶段，组织资讯、申购、中签和收益晒单等内容方向，并通过KOC协作形成多种表达。\n\n专项周均产出约25篇内容，累计统筹75篇以上，配合节点节奏完成内容生产与分发。\n\n### 日常协作与品牌口碑\n参与两家Agency的内容协作，跟进选题、稿件质量与产品信息准确性；同时参与小红书口碑维护，跟进负面内容反馈与正向UGC补充。",
+        "项目成果": "IPO专项曝光54万+；项目复盘口径记录，moomoo打新相关搜索增长107%，开户转化80+。\n\n以上为专项整体结果，个人承担内容与协作环节。",
+        "我的复盘": "产品内容需要找到用户需求与功能价值之间的连接。曝光之外，品牌搜索和后续行动能帮助判断内容是否引发了进一步了解产品的兴趣。"
       },
       "v2En": {
         "context": "Financial content supports a longer journey: discovering an IPO, learning the process and following the outcome. The strategy links each information need with relevant product content.",
@@ -457,7 +473,23 @@ window.PORTFOLIO = {
         "results": "IPO campaign: 540K+ impressions, a 107% increase in brand search and 80+ associated account openings. These are campaign-wide observations; they do not establish individual or content-only attribution.",
         "reflection": "Evaluate reach, interest, product understanding and subsequent conversion separately. High post engagement alone does not prove product growth.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
-      }
+      },
+      "listingExpansion": "参与日常UGC内容与IPO专项运营，围绕资讯、申购、中签和收益晒单等用户关注点组织内容，协同KOC与Agency完成生产、审核和分发。\n\n同时参与小红书口碑维护，通过负面反馈跟进与正向内容补充，支持用户对产品和品牌形成更完整的认识。",
+      "listingMetrics": [
+        [
+          "54万+",
+          "IPO专项内容曝光",
+          "540K+",
+          "IPO content impressions"
+        ],
+        [
+          "75篇+",
+          "专项统筹内容",
+          "75+",
+          "Campaign posts coordinated"
+        ]
+      ],
+      "listingExpansionEn": "### User interests\nPlanned stock and IPO topics, tutorials and experience-based content.\n### Distribution\nSupported Xiaohongshu KOC briefs, review and account coordination.\n### Feedback\nMonitored social feedback and supported issue classification and response.\n### IPO campaigns\nOrganized information, templates, creator coordination and reporting.\n\nCampaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
     },
     {
       "id": "nova",
@@ -465,9 +497,9 @@ window.PORTFOLIO = {
       "category": "PRODUCT GTM PREPARATION",
       "icon": "◒",
       "tone": "brown",
-      "title": "山海星辰｜AI短剧创作与品牌内容营销",
+      "title": "山海星辰｜AI视频场景与创作者共创",
       "titleEn": "Shanhai Xingchen | AI video creation & brand content",
-      "summary": "探索AI视频工作流如何服务创意生产、品牌传播与创作者参与。",
+      "summary": "从AI制作案例，到创作者可以参与的内容玩法",
       "summaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
       "tags": [
         "AI创作场景",
@@ -650,13 +682,15 @@ window.PORTFOLIO = {
         "image": "assets/breakfast-topic-results.jpg",
         "note": "用户提供的话题页截图显示7005.3万次播放，截图时间未提供。该数值为整个话题的累计播放，包含官方、达人、商家及UGC内容，不等同于本人作品播放量、个人贡献增量或Nova AI产品增长；与项目复盘的统计周期不同，分开展示。"
       },
-      "cardFocus": "AI创意生产 · 视频工作流与品牌传播",
-      "cardSummary": "探索AI视频工作流如何服务创意生产、品牌传播与创作者参与。",
+      "cardFocus": "AI脚本与制作 · 达人协同 · UGC参与设计",
+      "cardSummary": "围绕AI视频与短剧创作场景，参与案例制作、达人合作和提示词模板整理，为Nova AI的市场启动准备应用案例与传播素材。",
       "cardSummaryEn": "Exploring AI video use cases and creator collaboration to prepare practical product stories for go-to-market.",
       "responsibilities": [
-        "创意与脚本：理解活动目标，参与主题、情节与视觉表达策划。",
-        "角色与场景：用AI工具生成角色、店铺环境和镜头素材，进行筛选调整。",
-        "剪辑与交付：组织镜头、调整节奏，协助达人视频和官方宣传片制作。"
+        "需求对接",
+        "脚本策划",
+        "AI生成与剪辑",
+        "达人协同",
+        "提示词模板整理"
       ],
       "judgment": "目标用户关心的不只是能否生成视频，而是能否完成具体创作任务。通过AI短剧、商业视频和社交内容，把技术功能转化为可理解、可参考的工作流。",
       "goal": "通过真实商业创作任务验证AI视频工具的应用场景，为产品GTM准备作品与创作者案例。",
@@ -676,21 +710,36 @@ window.PORTFOLIO = {
       ],
       "processNote": "生成素材需要继续筛选、调整和剪辑，才能进入实际交付。现有资料没有统一工时基线，因此不量化效率提升；本人的职责为创作与传播协同，不是Nova AI产品功能设计负责人。",
       "v2Sections": {
-        "项目背景": "生成式AI正在改变品牌内容和视频创作的生产方式。\n\n在山海星辰，我参与AI短剧及品牌营销相关项目，通过脚本策划、AI视频生成、内容制作和达人协作，探索AI内容生产在真实商业项目中的应用。\n\n同时参与Nova AI相关的市场推广准备，关注AI创作能力如何通过具体案例被用户理解。",
-        "核心问题": "**如何将AI生成能力转化为符合品牌需求、可以实际传播的内容作品？**\n\nAI工具能够提升创意探索和素材生产效率，但商业内容依然需要解决品牌诉求、脚本逻辑、画面一致性、制作质量和传播适配等问题。",
-        "我的工作": "### 01 / 创意与脚本策划\n\n参与品牌短视频及AI短剧的创意讨论、脚本构思与内容方案整理。\n\n根据品牌需求、传播话题与内容形式，推动创意方向转化为可以执行的制作方案。\n\n### 02 / AI视频制作\n\n参与AI视频生成、素材筛选、画面调整及剪辑制作，结合内容需求进行效果检查和优化。\n\n在实际制作中关注画面质量、镜头衔接、风格一致性和成片表达。\n\n### 03 / 创作者合作与传播\n\n参与达人内容Brief、传播物料及项目执行，协助推进达人内容与活动话题协同。\n\n同时参与AI风格创作提示词模板整理，降低创作者理解和参与门槛。\n\n### 04 / AI产品应用场景探索\n\n参与Nova AI相关市场推广准备，通过AI内容案例与创作场景展示产品能力，为后续传播积累素材与应用思路。",
-        "项目成果": "相关品牌营销活动整体成果：\n\n- 话题曝光1588万+\n- UGC投稿445篇\n- 代表性达人内容获得百万级曝光\n\n以上为团队项目及传播活动成果，我主要参与AI内容策划、视频制作和创作者传播执行。",
-        "我的复盘": "AI降低了内容生产的部分技术门槛，但并没有取代创意判断、内容质量控制和项目协作。\n\n实际项目中，生成结果的稳定性、修改成本、品牌调性与成片交付标准，仍然需要人工持续判断和调整。\n\n这段经历让我更具体地理解了AI工具在商业内容生产中的优势与局限，也让我希望进一步探索更稳定、可复用的AI创作工作流。"
+        "项目背景": "围绕Nova AI市场启动准备，通过AI视频案例、创作者合作与内容制作，探索工具在短剧和营销创作中的应用表达。\n\n其中，抖音电商夏季美食热点项目，以AI小人国风格和短剧情节连接美食内容，为创作者提供参与方向。",
+        "我的工作": "### 从需求到成片交付\n负责3位合作达人视频及1支官方宣传片的需求对接、脚本策划、AI生成与剪辑。\n\n将传播诉求拆解为人物、场景、情节与镜头，并在生成和剪辑过程中调整表达，完成内容交付。\n\n### 用模板支持更多人参与\n联动MCN达人，整理商家可复用的AI小人国风格提示词模板，把创作方法转化为可参考的内容材料，支持中尾部创作者参与话题。",
+        "项目成果": "活动话题「早餐也进军短剧了」总曝光1588万+，累计UGC投稿445篇。\n\n合作达人太原周嵘单条视频曝光破百万、点赞2万+。\n\n以上为活动与内容传播表现。",
+        "我的复盘": "AI创作案例既需要展示效果，也需要让其他创作者理解实现路径。提示词模板和示例内容，可以把一次交付中的方法进一步转化为参与素材。"
       },
       "v2En": {
         "context": "Nova AI serves AI content creation. Before market entry, real production tasks help creators understand its use cases and build a practical basis for go-to-market materials.",
         "problem": "How can AI generation become content that meets brand requirements and can be distributed?",
-        "role": "I contributed creative planning, scripts, AI generation and editing, creator briefs and campaign execution, alongside Nova AI marketing preparation.",
-        "process": "### Plan the story\nTurned creative discussion into scripts and production plans.\n### Produce AI video\nGenerated, selected and adjusted assets, then edited for continuity, style and delivery quality.\n### Support creator participation\nHelped prepare briefs, materials and prompt templates.\n### Explore product use cases\nUsed creative examples to support Nova AI marketing preparation.",
+        "role": "Requirements coordination, script planning, AI generation and editing, creator collaboration and reusable prompt templates.",
+        "process": "### From requirements to finished video\nI handled requirements, scripts, AI generation and editing for videos with three creators and one official promotional film.\n### Templates for creator participation\nI collaborated with MCN creators and organized reusable miniature-world prompt templates to help more creators participate.",
         "results": "Related campaign results: 15.88M+ topic impressions and 445 UGC submissions; representative creator content reached million-level exposure.",
         "reflection": "AI reduces some production barriers but still requires creative judgment, quality control and coordination. Stable outputs, revision costs and delivery standards remain practical constraints.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
-      }
+      },
+      "listingExpansion": "在抖音电商夏季美食热点项目中，负责3位合作达人视频及1支官方宣传片的需求对接、脚本策划、AI生成与剪辑。\n\n联动MCN达人，并整理可复用的AI小人国风格提示词模板，为中尾部创作者提供参与参考。以上数据为活动传播成果。",
+      "listingMetrics": [
+        [
+          "445篇",
+          "活动UGC投稿",
+          "445",
+          "Campaign UGC submissions"
+        ],
+        [
+          "1588万+",
+          "活动话题曝光",
+          "15.88M+",
+          "Campaign topic impressions"
+        ]
+      ],
+      "listingExpansionEn": "### From requirements to finished video\nI handled requirements, scripts, AI generation and editing for videos with three creators and one official promotional film.\n### Templates for creator participation\nI collaborated with MCN creators and organized reusable miniature-world prompt templates to help more creators participate.\n\nCampaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
     },
     {
       "id": "baike",
@@ -698,9 +747,9 @@ window.PORTFOLIO = {
       "category": "CREATOR ECOSYSTEM",
       "icon": "◎",
       "tone": "blue",
-      "title": "百度｜300+校园创作者运营体系",
+      "title": "百度百科｜校园创作者运营",
       "titleEn": "Baidu | Campus creator operating mechanisms",
-      "summary": "从内容招募到持续供给：让创作者参与形成可执行、可管理的运营机制。",
+      "summary": "让创作者协作，成为持续的内容供给",
       "summaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
       "tags": [
         "Creator Operations",
@@ -784,7 +833,7 @@ window.PORTFOLIO = {
           "结算、反馈与下一轮参与"
         ]
       ],
-      "resultNote": "正式创作者约300名，后期约150名持续活跃。9.23—10.7盘点表记录累计回收站外内容5,572篇，其中1,352篇阅读超过1万；具体回收起止待核实，不写为最高单月。阅读1.37亿+、点赞108.9万+、收藏10.2万+、评论36.4万+按表内“Q3：7月开始”累计口径展示，均为项目整体数据。",
+      "resultNote": "承接初期约300人的创作者社群，运营三个月后约150名持续活跃。9.23—10.7盘点表记录累计回收站外内容5,572篇，其中1,352篇阅读超过1万；具体回收起止待核实，不写为最高单月。阅读1.37亿+、点赞108.9万+、收藏10.2万+、评论36.4万+按表内“Q3：7月开始”累计口径展示，均为项目整体数据。",
       "learning": "创作者生态的长期价值不只在于内容数量，更在于能否建立稳定的生产、反馈与激励机制。这一项目帮助我形成较完整的创作者运营方法，理解内容供给如何支持产品传播与社区生态。",
       "gallery": [],
       "source": "百科KOC站外传播数据（9.23—10.7）；热点运营SOP；传播与业务协同需求SOP；内容运营手册。",
@@ -810,13 +859,15 @@ window.PORTFOLIO = {
           "body": "通过奖励机制和数据反馈，提高创作者持续参与的积极性。\r\n\r\n包括：\r\n\r\n- 根据内容阅读表现给予奖励。\r\n- 通过Top5榜单突出优秀创作者。\r\n- 结合优质案例指导内容生产。\r\n- 对低活跃创作者开展召回。"
         }
       ],
-      "cardFocus": "创作者分层 · 任务、反馈与激励机制",
-      "cardSummary": "从内容招募到持续供给：让创作者参与形成可执行、可管理的运营机制。",
+      "cardFocus": "创作者社群 · 内容指导 · 任务与激励机制",
+      "cardSummary": "承接校园创作者资源池，通过选题指导、任务分发、内容审核与激励，支持百科相关内容在站外持续生产和传播。",
       "cardSummaryEn": "Building creator supply through recruitment, content guidance, task distribution and incentives.",
       "responsibilities": [
-        "创作者池：参与招募文案、报名流程、筛选审核和社群组织。",
-        "内容指导：用手册和Brief说明选题、标题、封面、产品自然植入与发布规范。",
-        "反馈激励：统计阅读互动，整理优秀案例，通过榜单、奖励与召回维持参与。"
+        "社群运营",
+        "内容指导",
+        "任务分发",
+        "审核与数据回收",
+        "激励与结算跟进"
       ],
       "judgment": "创作者的内容偏好和成熟度不同。统一下发任务之外，还需要按娱乐人物、知识趣梗等方向提供案例、选题来源与表达标准。",
       "goal": "搭建创作者运营体系，让不同方向的创作者持续产出符合百科传播需求的内容。",
@@ -835,21 +886,36 @@ window.PORTFOLIO = {
         ]
       ],
       "v2Sections": {
-        "项目背景": "校园创作者是百度百科内容生态的重要参与群体。\n\n与单次达人合作不同，持续性的创作者运营需要同时解决招募、内容质量、活跃参与、任务执行和激励结算等问题。\n\n项目通过校园创作者招募和运营管理，为平台建立相对稳定的内容供给渠道。",
-        "核心问题": "**如何让招募进来的创作者，持续产出符合平台要求的内容？**\n\n创作者运营并不是完成招募就结束。\n\n不同创作者的内容能力、参与意愿与熟悉程度存在差异。如果缺乏统一的任务说明、内容标准和反馈机制，就容易出现投稿效率低、内容质量不稳定以及任务回收困难等问题。",
-        "我的工作": "### 01 / 创作者招募与准入\n\n参与校园创作者招募、审核与社群管理，协助建立创作者池，并根据实际参与情况跟进内容任务。\n\n项目累计覆盖300名正式创作者，活跃创作者约150人。\n\n### 02 / 内容标准与运营指导\n\n参与创作者运营手册建设，围绕选题来源、标题封面、内容结构、平台规范及百科内容植入提供指导。\n\n通过更明确的任务要求和内容示例，帮助创作者理解平台需要什么样的内容。\n\n### 03 / 内容任务与激励机制\n\n参与热点选题、任务发布、内容审核、稿件回收及结算流程。\n\n结合阶梯激励、优质内容展示和创作者反馈，支持持续投稿与内容质量管理。\n\n### 04 / 数据回收与运营复盘\n\n参与内容数据整理与传播效果回收，关注创作者参与情况、内容产量及稿件质量。\n\n通过日常反馈发现任务执行中的问题，并对内容指导和运营流程进行调整。",
-        "项目成果": "- 累计正式创作者：300人\n- 累计回收内容：5572篇\n- 阅读量超过1万的内容：1352篇\n- Q3累计阅读量：1.37亿+\n- Q3累计点赞：108.9万+\n\n以上为创作者运营项目的整体累计成果，个人主要参与创作者招募、运营机制执行、内容指导和数据回收等工作。",
-        "我的复盘": "创作者增长与内容供给增长，并不是同一个指标。\n\n招募数量只能反映创作者池的规模，更需要关注的是创作者能否完成首次投稿、是否持续参与，以及最终产出的内容是否符合平台目标。\n\n这个项目让我理解，创作者运营的核心并非不断发布任务，而是让任务、指导、反馈与激励形成持续运转的机制。\n\n未来如果继续优化，我会重点观察新创作者首次投稿完成率、不同创作者分层的投稿表现、任务完成率及持续参与情况，让运营动作能够更直接地对应内容供给目标。"
+        "项目背景": "百科相关内容需要通过站外平台进入更多用户的日常浏览场景。校园创作者资源池承担了内容生产与传播支持的作用。\n\n我承接初期约300人的创作者社群，围绕任务执行与内容质量开展日常运营。",
+        "我的工作": "### 把内容要求转化为创作指引\n为了帮助创作者理解任务要求，我参与整理运营手册，将选题来源、标题封面、正文结构、百科植入方式和内容规范转化为可参考的指引。\n\n在日常沟通中结合具体稿件反馈，帮助创作者理解如何把百科信息自然放进用户感兴趣的内容中。\n\n### 建立任务执行流程\n围绕热点与专项需求，跟进任务发布、社群答疑、稿件审核、修改反馈、数据回收与结算。\n\n这一流程既支持创作者完成交付，也帮助团队掌握内容产出与传播表现。\n\n### 用激励与案例维持参与\n结合阶梯激励、Top 5展示和优秀内容分享，让创作者明确投入与回报，也为后续创作提供参考。\n\n运营三个月后，社群约150名创作者保持活跃。",
+        "项目成果": "项目累计回收内容5572篇，其中阅读量过万内容1352篇。\n\nQ3内容累计阅读1.37亿+，点赞108.9万+、收藏10.2万+、评论36.4万+。\n\n以上为项目统计结果。",
+        "我的复盘": "创作者运营需要同时照顾任务清晰度、反馈效率与参与动力。规则决定内容能否稳定交付，具体反馈和案例则帮助创作者逐步提升内容质量。"
       },
       "v2En": {
-        "context": "Creator operations goes beyond community management. Recruitment, clear guidance, tasks and feedback need to work together to sustain content supply.",
+        "context": "The campus creator pool supported production and distribution of Baidu-related content on external platforms. I took over an initial community of about 300 creators, focusing on task execution and content quality.",
         "problem": "How can recruited creators keep producing content that meets platform requirements?",
-        "role": "I supported recruitment, community coordination, content guidance, task execution, review, reporting and settlements.",
+        "role": "Community operations, content guidance, task distribution, review, reporting, incentives and settlement follow-up.",
         "process": "### Recruit and onboard\nHelped build the creator pool and follow up participation.\n### Define content standards\nContributed guidance on topics, titles, covers, structure and platform requirements.\n### Operate tasks and incentives\nSupported task distribution, review, content collection and settlements.\n### Review participation\nCollected performance data and fed execution issues back into guidance.",
-        "results": "300 formal creators; 5,572 collected posts; 1,352 posts above 10K reads; Q3 totals of 137M+ reads and 1.089M+ likes.",
+        "results": "5,572 posts collected across the project, including 1,352 above 10K reads. Q3 totals: 137M+ reads, 1.089M+ likes, 102K+ saves and 364K+ comments. These are project-wide results.",
         "reflection": "Recruitment and content supply measure different things. I would track first-post completion, participation by creator segment, task completion and continued contribution.",
         "scope": "Campaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
-      }
+      },
+      "listingExpansion": "围绕创作者从接收任务到提交内容的过程，整理选题、标题封面、内容结构与百科植入规范，跟进日常答疑、审核、数据回收与结算。\n\n结合热点任务、阶梯激励和优秀案例分享，帮助创作者明确要求，也让内容供给形成可重复执行的流程。运营三个月后，约150名创作者保持活跃。",
+      "listingMetrics": [
+        [
+          "300人",
+          "承接的初期创作者社群规模",
+          "300",
+          "Initial community size"
+        ],
+        [
+          "5572篇",
+          "项目累计回收内容",
+          "5,572",
+          "Posts collected across the project"
+        ]
+      ],
+      "listingExpansionEn": "### Recruit and onboard\nHelped build the creator pool and follow up participation.\n### Define content standards\nContributed guidance on topics, titles, covers, structure and platform requirements.\n### Operate tasks and incentives\nSupported task distribution, review, content collection and settlements.\n### Review participation\nCollected performance data and fed execution issues back into guidance.\n\nCampaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
     },
     {
       "id": "heritage",
@@ -859,7 +925,7 @@ window.PORTFOLIO = {
       "tone": "pink",
       "title": "百度｜AI非遗馆主题传播",
       "titleEn": "Baidu | AI Heritage Museum campaign",
-      "summary": "让AI Agent的应用能力，通过具体的文化体验被用户感知。",
+      "summary": "用可参与的非遗体验，解释AI Agent的能力",
       "summaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
       "tags": [
         "AI Agent",
@@ -953,13 +1019,16 @@ window.PORTFOLIO = {
           "body": "**内容表达**\r\n\r\n参与微信公众号、官方社交媒体和内部传播文案撰写，将产品体验转化为面向普通用户的内容语言。\r\n\r\n**资源协同**\r\n\r\n参与百度系资源位、官方账号、社媒资源和内部渠道的申请与协调。\r\n\r\n**创作者传播**\r\n\r\n调用校园知识合伙人资源，参与专项Brief、内容审核和传播反馈。\r\n\r\n**执行管理**\r\n\r\n跟进内容排期、传播物料、渠道上线及项目进度。"
         }
       ],
-      "cardFocus": "AI应用场景 · 渠道与创作者协作",
-      "cardSummary": "让AI Agent的应用能力，通过具体的文化体验被用户感知。",
+      "cardFocus": "AI Agent场景表达 · KOC内容执行 · 多渠道传播",
+      "cardSummary": "围绕簪花换装、京剧上妆等体验，将AI Agent能力转化为可感知的非遗互动场景，参与从传播文案、创作者任务到内容审核与数据回收的执行。",
       "cardSummaryEn": "Translating AI agents into cultural experiences, supported by coordinated channels and creators.",
       "responsibilities": [
-        "能力场景化：用簪花换装、戏曲妆容等视觉结果说明体验价值。",
-        "渠道协同：沟通搜索主会场、百科资源位、内宣及社交媒体资源。",
-        "执行跟进：通过传播执行表管理物料、排期、渠道和上线进度。"
+        "传播文案",
+        "KOC Brief",
+        "社群运营",
+        "内容回收与审核",
+        "数据统计",
+        "资源协调"
       ],
       "judgment": "不同渠道需要不同的信息表达，但要共同服务于产品认知与体验目标。可见的场景价值，比抽象的技术介绍更容易建立连接。",
       "goal": "把AI Agent能力转化为可体验的文化场景，引导用户理解并尝试AI非遗馆。",
@@ -978,10 +1047,10 @@ window.PORTFOLIO = {
         ]
       ],
       "v2Sections": {
-        "项目背景": "AI产品的推广不仅需要介绍功能，还需要让用户理解它能带来怎样的实际体验。\n\n百度AI非遗馆结合传统文化与AI生成能力，通过簪花换装、京剧上妆等互动场景，将AI Agent的产品能力转化为更具参与感的文化体验。\n\n项目围绕主题活动开展传播，通过搜索、官方内容渠道、创作者生态及相关传播资源触达用户。",
-        "核心问题": "**如何让用户通过有趣的体验，理解AI Agent的实际价值？**\n\n对于普通用户而言，抽象的AI技术描述不一定能够直接激发兴趣。\n\n将AI能力放进熟悉的文化内容和互动场景，可以降低理解门槛，让用户更直观地感知产品能够完成什么任务。",
-        "我的工作": "### 01 / 主题传播策划\n\n参与AI非遗馆活动的传播规划，围绕预热、爆发和收尾阶段整理内容与渠道执行需求。\n\n### 02 / 渠道及内容协作\n\n参与搜索主会场、百科官方内容渠道及其他传播资源的联动执行，支持主题内容触达。\n\n### 03 / 创作者内容供给\n\n结合已有校园创作者资源，参与专项内容任务组织、创作者沟通及内容回收。\n\n### 04 / 传播执行与效果回收\n\n参与传播素材、内容协作与项目进度跟进，支持活动上线及传播反馈整理。",
-        "我的复盘": "AI应用传播的关键，不只是解释产品使用了什么技术，而是找到用户能够直观理解、愿意主动体验的使用场景。\n\n这类项目让我认识到，产品GTM可以通过内容策划、体验设计和渠道传播相互配合，让技术能力更自然地进入用户认知。\n\n未来我希望进一步参与从产品使用到用户激活的完整链路，而不仅停留在前端传播。"
+        "项目背景": "AI Agent的能力需要通过具体体验被用户理解。AI非遗馆以簪花换装、京剧上妆等场景，把AI能力与传统文化体验连接起来，为用户提供直观的参与入口。",
+        "我的工作": "### 将玩法转化为传播内容\n围绕项目玩法与参与路径，撰写活动及渠道传播文案，帮助用户了解可以获得什么体验、如何参与，以及产品入口在哪里。\n\n### 协同创作者完成内容交付\n承担KOC Brief、任务沟通、稿件回收与审核，结合校园创作者资源承接专项传播。\n\n审核中关注玩法描述、参与指引与内容表达，跟进修改和数据回收，支持传播执行。\n\n### 配合项目节奏推进\n配合预热、上线和收尾阶段，参与官微、公众号、内网等渠道文案与资源协调，并整理内容交付及传播数据。",
+        "项目成果": "",
+        "我的复盘": "AI产品传播需要让能力与体验对应起来。具体场景帮助用户产生兴趣，清楚的示例与参与指引则帮助兴趣转化为实际尝试。"
       },
       "v2En": {
         "context": "The campaign translates intangible cultural heritage and AI agents into experiences people can understand, try and share.",
@@ -1051,7 +1120,10 @@ window.PORTFOLIO = {
             ]
           ]
         }
-      ]
+      ],
+      "listingExpansion": "配合项目预热、上线与收尾节奏，承担KOC Brief、社群沟通、稿件审核、数据统计及官微、公众号、内网等传播文案。\n\n协调校园创作者资源承接专项内容，让用户通过体验示例和参与指引，理解活动玩法与产品入口。",
+      "listingMetrics": [],
+      "listingExpansionEn": "### Campaign planning\nOrganized content and channel requirements across campaign stages.\n### Channel coordination\nSupported search, official content and other distribution resources.\n### Creator content\nHelped organize tasks and collect campus creator contributions.\n### Execution\nFollowed up materials, collaboration and campaign feedback.\n\nCampaign-wide or project-wide results, not an individually attributable contribution. Existing source notes and measurement limitations apply."
     }
   ],
   "experience": [
