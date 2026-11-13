@@ -1398,28 +1398,94 @@ window.PORTFOLIO = {
     ],
     "methods": [
       {
-        "title": "理解问题",
-        "body": "好的方案，始于对问题的准确理解。\n\n我习惯先确认业务目标、用户需求与实际场景，再拆解任务、梳理限制条件，明确怎样的结果才算有效。",
-        "titleEn": "Understand the problem",
-        "bodyEn": "A useful solution starts with understanding the problem. I clarify the business goal, user needs and real context, then break down tasks, constraints and what an effective result would look like."
+        "title": "理解需求",
+        "promise": "找到用户在什么情境下，需要这个产品。",
+        "body": "接到项目后，我习惯先拆解目标：希望用户认识什么、参与什么，以及完成什么行动。再结合用户关注的话题、使用情境与已有反馈，寻找产品能力可以承接的具体需求。\n\n在小米，旅行纪念、童年回忆和毕业留念，为AI生图提供了参与理由；在富途，个股资讯与IPO申购，为产品功能介绍提供了自然的切入点。",
+        "focus": "从用户熟悉的生活场景和内容兴趣中，找到产品价值的表达入口。",
+        "projects": [
+          "xiaomi",
+          "futu"
+        ],
+        "titleEn": "Understand needs",
+        "promiseEn": "Find the situation in which people need the product.",
+        "bodyEn": "I clarify what users should understand, try and do, then consider their interests, context and feedback. At Xiaomi, travel memories, childhood and graduation gave AI image generation a reason to be tried. At Futu, stock information and IPO subscriptions offered a natural entry point for product education.",
+        "focusEn": "Find a way to express product value through familiar situations and interests."
       },
       {
-        "title": "将想法变成可执行的方案",
-        "body": "创意需要想象力，也需要现实约束。\n\n我能够从内容策划、脚本、传播方案和执行流程出发，将一个抽象概念逐步转化为可以实际制作、协作和交付的成果。",
-        "titleEn": "Make an idea executable",
-        "bodyEn": "Creativity needs imagination and practical constraints. I turn concepts into scripts, content plans, campaign materials and execution steps that can be produced, coordinated and delivered."
+        "title": "策划场景",
+        "promise": "把产品能做什么，转化为用户想试什么。",
+        "body": "我擅长把抽象能力拆解为具体玩法、内容主题和参与方式，让创意能够继续进入制作与执行。\n\n在小米，参与将AI生图能力转化为拍立得、童年手办等节日玩法；在百度AI非遗馆，围绕簪花换装、京剧上妆等体验组织传播表达；在山海星辰，将AI视频能力放进美食短剧与小人国创作场景。",
+        "focus": "内容敏感度与场景创意：找到有吸引力的切入点，并把它写成清楚、可执行的方案。",
+        "projects": [
+          "xiaomi",
+          "heritage",
+          "nova"
+        ],
+        "titleEn": "Plan scenarios",
+        "promiseEn": "Turn what a product can do into something people want to try.",
+        "bodyEn": "I break capabilities into experiences, content themes and participation steps. Examples include Xiaomi seasonal polaroids and figurines, floral and opera styling at the AI Heritage Museum, and food stories and miniature-world AI videos at Shanhai Xingchen.",
+        "focusEn": "Find an appealing angle and turn it into a clear, executable plan.",
+        "image": "assets/heritage-7.png"
       },
       {
-        "title": "连接产品、内容与用户",
-        "body": "不同团队使用不同的语言。\n\n产品团队关注功能与能力，用户关注实际价值，传播团队关注怎样让信息被理解与接受。\n\n我希望在这些不同需求之间建立连接，让复杂的信息变得清晰，并推动协作落地。",
-        "titleEn": "Connect product, content and users",
-        "bodyEn": "Product teams focus on capabilities; users focus on value; communications teams focus on understanding. I help make information clearer and support collaboration across these needs."
+        "title": "验证体验",
+        "promise": "让实际效果，尽可能接近用户看到的承诺。",
+        "body": "参与AI项目时，我会把创意进一步拆解为输入条件、预期效果与检查维度，关注不同素材下的表现，以及用户可能遇到的理解和体验障碍。\n\n在小米，参与构建单人、多人、宠物等测试样本，整理Good / Bad Case，围绕主体识别、人物比例、风格一致性、畸变与漏人等问题反馈，并参与上线前的H5体验检查。",
+        "focus": "把“效果不对”转化为具体问题，帮助团队定位差异、沟通调整。",
+        "projects": [
+          "xiaomi"
+        ],
+        "titleEn": "Validate the experience",
+        "promiseEn": "Bring actual results closer to what users are promised.",
+        "bodyEn": "I consider input conditions, expected results and evaluation criteria, including how different inputs behave and where users may encounter confusion. At Xiaomi, I helped prepare single-person, group and pet samples, organize good and bad cases, report recognition, proportion, style and distortion issues, and check the H5 experience before launch.",
+        "focusEn": "Turn a vague quality concern into a specific issue the team can discuss and address.",
+        "image": "assets/xiaomi-evidence-1.png"
       },
       {
-        "title": "用反馈推动下一次优化",
-        "body": "项目上线不是结束。\n\n我关注真实反馈、内容表现与关键运营数据，通过问题分类、效果复盘和迭代建议，寻找持续改进的方向。",
-        "titleEn": "Improve through feedback",
-        "bodyEn": "Launch is not the end. I review real feedback, content performance and operating data, classify problems and look for improvements for the next iteration."
+        "title": "组织供给",
+        "promise": "让内容和创作者协作，形成可持续执行的流程。",
+        "body": "我会把项目要求整理为创作者能够理解的任务，包括选题方向、内容规范、参考案例、交付要求与反馈方式，再跟进生产、审核、修改和数据回收。\n\n在百度，承接校园创作者社群，参与内容指导、任务分发、激励与结算；在富途，协同KOC与Agency推进日常和专项内容；在山海星辰，参与达人协作，并整理可复用的提示词模板。",
+        "focus": "把创意转化为Brief、模板与执行流程，连接创作者表达和项目目标。",
+        "projects": [
+          "baike",
+          "futu",
+          "nova"
+        ],
+        "titleEn": "Organize content supply",
+        "promiseEn": "Make creator collaboration a repeatable process.",
+        "bodyEn": "I turn requirements into topics, standards, references, deliverables and feedback steps, then follow up production, review, revisions and reporting. This includes campus creator operations at Baidu, KOC and agency coordination at Futu, and creator collaboration and prompt templates at Shanhai Xingchen.",
+        "focusEn": "Connect creator expression with project goals through briefs, templates and workflows.",
+        "image": "assets/baidu-entertainment-cover.jpg"
+      },
+      {
+        "title": "推动传播",
+        "promise": "让产品价值，以适合渠道的方式被看见。",
+        "body": "我参与过官号、社群、达人与用户内容等传播环节，会围绕同一个项目目标，调整不同渠道的表达重点，并配合上线和营销节点推进交付。\n\n在小米，参与玩法上线后的官号与达人传播支持；在百度AI非遗馆，配合项目节奏推进多渠道文案与KOC内容；在富途，围绕IPO阶段组织内容，支持产品理解、品牌搜索与开户行动。",
+        "focus": "将产品语言转化为用户语言，让内容既有阅读理由，也能说明产品价值与参与路径。",
+        "projects": [
+          "xiaomi",
+          "heritage",
+          "futu"
+        ],
+        "titleEn": "Support communication",
+        "promiseEn": "Express product value in a way that fits the channel.",
+        "bodyEn": "I adapt the message across official accounts, communities, creators and user content while keeping the same project goal. My work includes Xiaomi launch communications, multi-channel copy and KOC content for the AI Heritage Museum, and Futu IPO content supporting understanding, search and account-opening intent.",
+        "focusEn": "Give people a reason to read while explaining product value and how to participate."
+      },
+      {
+        "title": "回收反馈",
+        "promise": "回到项目目标，判断哪些表达和动作值得继续。",
+        "body": "我参与内容数据回收、用户反馈整理与项目复盘，关注不同阶段的结果：内容是否引起兴趣、用户是否参与体验，以及是否出现进一步搜索或转化。\n\n在小米，接触玩法访问、生图与拉新召回等指标；在百度，跟进创作者活跃、内容交付与阅读互动；在富途，关注内容曝光及专项搜索、开户表现。",
+        "focus": "把内容表现与用户行动联系起来，为后续选题、任务和传播调整提供依据。",
+        "projects": [
+          "baike",
+          "xiaomi",
+          "futu"
+        ],
+        "titleEn": "Collect feedback",
+        "promiseEn": "Return to the goal and decide what is worth continuing.",
+        "bodyEn": "I help collect content data, organize user feedback and review projects across interest, participation and subsequent search or conversion. This includes visits and generation metrics at Xiaomi, creator activity and content engagement at Baidu, and campaign impressions, search and account openings at Futu.",
+        "focusEn": "Connect content performance with user actions to inform future topics, tasks and communication."
       }
     ]
   }
