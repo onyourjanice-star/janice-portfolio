@@ -115,15 +115,17 @@ function parseRoute(hash){
     if(route==='#/work')return {type:'work',section:/^work-(ai|growth|story)$/.test(section)?section:''};
     if(route==='#/approach')return {type:'approach',section:/^method-[1-5]$/.test(section)?section:''};
     if(route==='#/contact')return {type:'contact',section:''};
-    if(route==='#/about')return {type:'contact',section:''};
+    if(route==='#/about')return {type:'home',section:''};
     if(route==='#/resume')return {type:'resume',section:''};
     return {type:'home',section:''};
   }
   const routeScroll=new Map();let activeRouteKey='',clickedNavigation=false;
   if('scrollRestoration' in history)history.scrollRestoration='manual';
   function render({restore=false,preserveScroll=false,force=false}={}){
-    if(location.hash==='#/about')history.replaceState(null,'','#/contact');
+    if(location.hash==='#/about')history.replaceState(null,'','#/');
     updateChrome();const hash=location.hash,route=parseRoute(hash),key=route.type+(route.id||''),currentY=window.scrollY;
+    const navType=route.type==='project'||route.type==='brief'?'work':route.type;
+    document.querySelectorAll('.nav nav a').forEach(a=>{const type=parseRoute(a.getAttribute('href')).type;if(type===navType)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
     if(force||key!==activeRouteKey){
       let html;
       if(route.type==='project'){const p=data.projects.find(p=>p.id===route.id);html=p?detail(p):`<article class="about-page"><h1>${tr('没有找到这个案例','Case not found')}</h1><a class="text-link" href="#/work">${tr('返回项目','Back to cases')} →</a></article>`;document.title=p?`${title(p)} · JANICE`:'未找到案例 · JANICE';}

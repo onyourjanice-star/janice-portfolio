@@ -63,6 +63,7 @@ const routeStart=appSource.indexOf('function parseRoute('),routeEnd=appSource.in
 assert(routeStart>=0 && routeEnd>routeStart);
 const parseRoute=vm.runInNewContext(appSource.slice(routeStart,routeEnd)+';parseRoute',{URLSearchParams});
 assert.equal(parseRoute('#projects').section,'projects');
+assert.equal(parseRoute('').type,'home');assert.equal(parseRoute('#/').type,'home');assert.equal(parseRoute('#/about').type,'home');assert.equal(parseRoute('#/contact').type,'contact');
 assert.equal(parseRoute('#/project/futu?section=case-context').id,'futu');
 assert.equal(parseRoute('#/project/futu?section=case-context').section,'case-context');
 assert.equal(parseRoute('#/lab?section=lab-video').type,'lab');
