@@ -8,7 +8,7 @@ vm.runInNewContext(fs.readFileSync(path.join(root,'content.js'),'utf8'),context)
 const projects = context.window.PORTFOLIO.projects;
 assert.equal(projects.length,5);
 assert.equal(new Set(projects.map(p=>p.id)).size,5);
-assert.deepEqual(Array.from(projects,p=>p.id),['xiaomi','futu','nova','baike','heritage']);
+assert.deepEqual(Array.from(projects,p=>p.id),['futu','baike','xiaomi','nova','heritage']);
 const data=context.window.PORTFOLIO;
 assert.equal(data.accounts.length,5);
 assert.equal(data.accounts.filter(a=>a.kind==='incubated' && a.role==='独立孵化').length,2);
@@ -32,7 +32,7 @@ assert.equal(futu.contentReview.cases[2][1],'497');
 assert(futu.contentReview.note.includes('下架'));
 for(const [image] of futu.contentReview.images)assert(fs.existsSync(path.join(root,image)));
 assert.equal(nova.videos.length,3);
-assert(nova.videos.every(v=>v.role==='本人制作与剪辑'));
+assert(nova.videos.every(v=>v.role==='参与制作 / AI生成与内容修改'));
 assert.equal(nova.ugcVideo.url,'https://v.douyin.com/ZAW6jmmfAn0/');
 assert(nova.ugcVideo.role.includes('UGC创作者制作'));
 assert.equal(new Set([...nova.videos,nova.ugcVideo].map(v=>v.url)).size,4);
